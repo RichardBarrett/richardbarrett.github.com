@@ -1,32 +1,32 @@
 {
     "files": [
         {
-            "source": "../images/firstBG.jpg",
+            "source": "http://richardbarrett.github.com/images/firstBG.jpg",
             "type": "IMAGE",
             "size": 500
         },  
         {
-            "source": "../images/secondBG.jpg",
+            "source": "http://richardbarrett.github.com/images/secondBG.jpg",
             "type": "IMAGE",
             "size": 500
         },  
         {
-            "source": "../images/thirdBG.jpg",
+            "source": "http://richardbarrett.github.com/images/thirdBG.jpg",
             "type": "IMAGE",
             "size": 500
         },  
         {
-            "source": "../images/fourthBG.jpg",
+            "source": "http://richardbarrett.github.com/images/fourthBG.jpg",
             "type": "IMAGE",
             "size": 500
         },  
         {
-            "source": "../images/fifthBG.png",
+            "source": "http://richardbarrett.github.com/images/fifthBG.png",
             "type": "IMAGE",
             "size": 500
         },  
         {
-            "source": "../images/sixthBG.jpg",
+            "source": "http://richardbarrett.github.com/images/sixthBG.jpg",
             "type": "IMAGE",
             "size": 500
         }
