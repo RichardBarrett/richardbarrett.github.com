@@ -58,7 +58,7 @@
 			$('body').append(overlay);
 
 			var currentImage;
-			$('.something').on('mouseenter', function (ev) {
+			$('.gallery-link').on('mouseenter', function (ev) {
 				var image = $(ev.currentTarget);
 				overlay.css({
 					top: image.offset().top - 10,
@@ -156,7 +156,7 @@
   				<div class="gallery">
 
 						  <a href='images/web-design/01.jpg' class='fresco' data-fresco-group='web-design' data-fresco-caption="Brisbane">
-						  		<div class="something" style='' id="animate_height_callback" alt=''></div>
+						  		<div class="gallery-link" style='' id="animate_height_callback" alt=''></div>
 						  </a>
 						  <a href='images/web-design/02.jpg' class='fresco' data-fresco-group='web-design' data-fresco-caption="Brisbane">
 						  		

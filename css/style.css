@@ -326,16 +326,12 @@ p{
 		padding:0;
 }
 
-.something-container:hover {
-	background: #444;
-	opacity: 0.5;	
-}
 
-.something:hover {
+.gallery-link:hover {
 	background-size: 110%;
 
 }
-.something {
+.gallery-link {
 	width: 650px;
 	height: 650px;
 	background-position: center;
@@ -348,7 +344,7 @@ p{
 }
 .overlay-background {
 	background: #000;
-	opacity: 0.75;
+	opacity: 0.85;
 	border: 10px solid #000;
 	border-radius: 5px;
 	position: absolute;
@@ -357,9 +353,10 @@ p{
 	color: #fff;
 	position: absolute;
 	left: 50%;
-	margin-left: -45px;
+	margin-left: -75px;
 	bottom: 100px;
-
+	width: 170px;
+	text-align: center;
     font-family: 'Vezus-Light';
     font-size: 18px;
     line-height: 34px;
@@ -369,7 +366,7 @@ p{
 	background-image: url(../images/view-gallery.png);
 	width: 90px;
 	left: 50%;
-	margin-left: -45px;
+	margin-left: -35px;
 	height: 90px;
 	top: 100px;
 }
