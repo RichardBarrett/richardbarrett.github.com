@@ -26,97 +26,102 @@
 <script type="text/javascript">
 		$(document).ready(function(){
 			//$('#nav').localScroll(800);
-			var loaderAnimation = $("#html5Loader").LoaderAnimation();
+			var whenReady = function () {
+				RepositionNav();
+				
+				$(window).resize(function(){
+					RepositionNav();
+				});	
+				
+				//.parallax(xPosition, adjuster, inertia, outerHeight) options:
+				//xPosition - Horizontal position of the element
+				//adjuster - y position to start from
+				//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+				//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+				$('#intro').parallax("50%", 0, 0.1, true);
+				$('#second').parallax("50%", 2250, 0.4, true);
+				$('#third').parallax("50%", 3100, 0.3, true);
+				$('#fourth').parallax("50%", 4000, 0.3, true);
+				$('#fifth').parallax("50%", 5000, 0.3, true);
+				$('#sixth').parallax("50%", 3000, 0.3, true);
+				
+				var deck = new $.scrolldeck({
+					slides: '.slide',
+					buttons: '#nav li a',
+					easing: 'easeInOutExpo'
+				});
+				var findImage = $('<div>').addClass('overlay-find');
+				var viewLabel = $('<div>').text('VIEW GALLERY').addClass('overlay-label');
+				var overlayBackground = $('<div>').addClass('overlay-background');
+				var overlay = $('<div>').addClass('overlay').html('').hide();
+				overlay.append(overlayBackground);
+
+				overlay.append(findImage);
+				overlay.append(viewLabel);
+				$('body').append(overlay);
+
+				var currentImage;
+				$('.gallery-link').on('mouseenter', function (ev) {
+					var image = $(ev.currentTarget);
+					overlay.css({
+						top: image.offset().top - 10,
+						left: image.offset().left - 10,
+						width: image.width(),
+						height: image.height()
+					});
+					overlayBackground.css({
+						width: image.width(),
+						height: image.height()
+					});
+					overlay.fadeIn(200);
+					overlayBackground.fadeIn(200);
+					viewLabel.animate({
+						bottom: '260px'
+					}, 200);
+
+					findImage.animate({
+						top: '260px'
+					}, 200);
+					image.animate({
+						'background-size': '120%'
+					}, 200);
+					currentImage = image;
+				});
+				$('.overlay').on('mouseleave', function (ev) {
+					var image = currentImage;
+					overlay.fadeOut(200);
+					viewLabel.animate({
+						bottom: '100px'
+					}, 200);
+
+					findImage.animate({
+						top: '100px'
+					}, 200);
+					image.animate({
+						'background-size': '100%'
+					}, 200);
+				});
+				$('.overlay').on('click', function (ev) {
+					currentImage.click();
+				});
+			};
+
+	var loaderAnimation = $("#html5Loader").LoaderAnimation();
 			$.html5Loader({
 					getFilesToLoadJSON:'js/files.json',
-					onUpdate: loaderAnimation.update
+					onUpdate: loaderAnimation.update,
+					onComplete: whenReady
 			});	
-
-			RepositionNav();
-			
-			$(window).resize(function(){
-				RepositionNav();
-			});	
-			
-			//.parallax(xPosition, adjuster, inertia, outerHeight) options:
-			//xPosition - Horizontal position of the element
-			//adjuster - y position to start from
-			//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
-			//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
-			$('#intro').parallax("50%", 0, 0.1, true);
-			$('#second').parallax("50%", 2250, 0.4, true);
-			$('#third').parallax("50%", 3100, 0.3, true);
-			$('#fourth').parallax("50%", 4000, 0.3, true);
-			$('#fifth').parallax("50%", 5000, 0.3, true);
-			$('#sixth').parallax("50%", 3000, 0.3, true);
-			
-			var deck = new $.scrolldeck({
-				slides: '.slide',
-				buttons: '#nav li a',
-				easing: 'easeInOutExpo'
-			});
-			var findImage = $('<div>').addClass('overlay-find');
-			var viewLabel = $('<div>').text('VIEW GALLERY').addClass('overlay-label');
-			var overlayBackground = $('<div>').addClass('overlay-background');
-			var overlay = $('<div>').addClass('overlay').html('').hide();
-			overlay.append(overlayBackground);
-
-			overlay.append(findImage);
-			overlay.append(viewLabel);
-			$('body').append(overlay);
-
-			var currentImage;
-			$('.gallery-link').on('mouseenter', function (ev) {
-				var image = $(ev.currentTarget);
-				overlay.css({
-					top: image.offset().top - 10,
-					left: image.offset().left - 10,
-					width: image.width(),
-					height: image.height()
-				});
-				overlayBackground.css({
-					width: image.width(),
-					height: image.height()
-				});
-				overlay.fadeIn(200);
-				overlayBackground.fadeIn(200);
-				viewLabel.animate({
-					bottom: '260px'
-				}, 200);
-
-				findImage.animate({
-					top: '260px'
-				}, 200);
-				image.animate({
-					'background-size': '120%'
-				}, 200);
-				currentImage = image;
-			});
-			$('.overlay').on('mouseleave', function (ev) {
-				var image = currentImage;
-				overlay.fadeOut(200);
-				viewLabel.animate({
-					bottom: '100px'
-				}, 200);
-
-				findImage.animate({
-					top: '100px'
-				}, 200);
-				image.animate({
-					'background-size': '100%'
-				}, 200);
-			});
-			$('.overlay').on('click', function (ev) {
-				currentImage.click();
-			});
-
 		})
+
+
 </script>
 
 
 </head>
 
 <body>
+<div id="html5Loader"></div>
 
 	<ul id="nav">
 		<li><a href="#intro" title="Next Section"></a></li>
