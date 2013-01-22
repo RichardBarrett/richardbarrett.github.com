@@ -165,7 +165,7 @@ p{
 
 #second{
 		background: url(../images/secondBG.jpg) 50% 0 repeat fixed;
-		height: 950px;
+		height: 1075px;
 		margin: 0 auto;
 		padding: 0;
 		overflow: hidden;
@@ -175,7 +175,7 @@ p{
 
 #third{
 		background: url(../images/thirdBG.jpg) 50% 0 repeat fixed;
-		height: 950px;
+		height: 1075px;
 		margin: 0 auto;
 		padding: 0;
 		overflow: hidden;
@@ -185,7 +185,7 @@ p{
 
 #fourth{
 		background: url(../images/fourthBG.jpg) 50% 0 repeat fixed;
-		height: 1050px;
+		height: 1075px;
 		margin: 0 auto;
 		padding: 0;
 		overflow: hidden;
@@ -195,7 +195,7 @@ p{
 
 #fifth{
 		background: url(../images/fifthBG.png) 50% 0 repeat fixed;
-		height: 950px;
+		height: 1075px;
 		margin: 0 auto;
 		padding: 0;
 		overflow: hidden;
@@ -205,7 +205,7 @@ p{
 
 #sixth{
 		background: url(../images/sixthBG.jpg) 50% 0 repeat fixed;
-		height: 950px;
+		height: 1075px;
 		margin: 0 auto;
 		padding: 0;
 		overflow: hidden;
@@ -275,7 +275,7 @@ p{
 }
 
 .gallery-container{
-		height:900px;
+		height:975px;
 		padding:50px 0;
 		text-align:center;
 		overflow:hidden;
@@ -324,4 +324,52 @@ p{
 		height:588px;
 		margin:0 auto;
 		padding:0;
+}
+
+.something-container:hover {
+	background: #444;
+	opacity: 0.5;	
+}
+
+.something:hover {
+	background-size: 110%;
+
+}
+.something {
+	width: 650px;
+	height: 650px;
+	background-position: center;
+	background-image: url(../images/web-design/web-design-gallery.jpg)
+}
+
+.overlay {
+	position: absolute;
+	cursor: pointer;
+}
+.overlay-background {
+	background: #000;
+	opacity: 0.75;
+	border: 10px solid #000;
+	border-radius: 5px;
+	position: absolute;
+}
+.overlay-label {
+	color: #fff;
+	position: absolute;
+	left: 50%;
+	margin-left: -45px;
+	bottom: 100px;
+
+    font-family: 'Vezus-Light';
+    font-size: 18px;
+    line-height: 34px;
+}
+.overlay-find {
+	position: absolute;
+	background-image: url(../images/view-gallery.png);
+	width: 90px;
+	left: 50%;
+	margin-left: -45px;
+	height: 90px;
+	top: 100px;
 }

@@ -47,6 +47,61 @@
 				buttons: '#nav li a',
 				easing: 'easeInOutExpo'
 			});
+			var findImage = $('<div>').addClass('overlay-find');
+			var viewLabel = $('<div>').text('VIEW GALLERY').addClass('overlay-label');
+			var overlayBackground = $('<div>').addClass('overlay-background');
+			var overlay = $('<div>').addClass('overlay').html('').hide();
+			overlay.append(overlayBackground);
+
+			overlay.append(findImage);
+			overlay.append(viewLabel);
+			$('body').append(overlay);
+
+			var currentImage;
+			$('.something').on('mouseenter', function (ev) {
+				var image = $(ev.currentTarget);
+				overlay.css({
+					top: image.offset().top - 10,
+					left: image.offset().left - 10,
+					width: image.width(),
+					height: image.height()
+				});
+				overlayBackground.css({
+					width: image.width(),
+					height: image.height()
+				});
+				overlay.fadeIn(200);
+				overlayBackground.fadeIn(200);
+				viewLabel.animate({
+					bottom: '260px'
+				}, 200);
+
+				findImage.animate({
+					top: '260px'
+				}, 200);
+				image.animate({
+					'background-size': '120%'
+				}, 200);
+				currentImage = image;
+			});
+			$('.overlay').on('mouseleave', function (ev) {
+				var image = currentImage;
+				overlay.fadeOut(200);
+				viewLabel.animate({
+					bottom: '100px'
+				}, 200);
+
+				findImage.animate({
+					top: '100px'
+				}, 200);
+				image.animate({
+					'background-size': '100%'
+				}, 200);
+			});
+			$('.overlay').on('click', function (ev) {
+				currentImage.click();
+			});
+
 		})
 </script>
 
@@ -101,7 +156,7 @@
   				<div class="gallery">
 
 						  <a href='images/web-design/01.jpg' class='fresco' data-fresco-group='web-design' data-fresco-caption="Brisbane">
-						  		<img src='images/web-design/web-design-gallery.jpg' id="animate_height_callback" alt=''/>
+						  		<div class="something" style='' id="animate_height_callback" alt=''></div>
 						  </a>
 						  <a href='images/web-design/02.jpg' class='fresco' data-fresco-group='web-design' data-fresco-caption="Brisbane">
 						  		
