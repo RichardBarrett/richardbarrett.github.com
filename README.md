@@ -1,4 +1,0 @@
-richardbarret.github.com
-========================
-
-Portfolio

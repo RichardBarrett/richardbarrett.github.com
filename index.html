@@ -1,210 +1,69 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Richard Barrett - User Experience/Web Designer</title>
+<html>
 
-<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
-<script type="text/javascript" src="js/jquery.scrollTo-1.4.3.1.min.js"></script>
-<script type="text/javascript" src="js/jquery.parallax-1.1.js"></script>
-<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="js/jquery.scrollorama.js"></script>
-<script type="text/javascript" src="js/jquery.scrolldeck.js"></script>
-<script type="text/javascript" src="js/fresco.js"></script>
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Richardbarrett.github.com : Portfolio" />
 
-<link rel="stylesheet" type="text/css" href="css/fresco/fresco.css" />
-<link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-		<!-- Make IE8 and below responsive by adding CSS3 MediaQuery support -->
-		<!--[if lt IE 9]>
-		  <script type="text/javascript" src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-		<![endif]-->
+    <title>Richardbarrett.github.com</title>
+  </head>
 
-<script type="text/javascript">
-		$(document).ready(function(){
-			//$('#nav').localScroll(800);
-			
-			RepositionNav();
-			
-			$(window).resize(function(){
-				RepositionNav();
-			});	
-			
-			//.parallax(xPosition, adjuster, inertia, outerHeight) options:
-			//xPosition - Horizontal position of the element
-			//adjuster - y position to start from
-			//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
-			//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
-			$('#intro').parallax("50%", 0, 0.1, true);
-			$('#second').parallax("50%", 2250, 0.4, true);
-			$('#third').parallax("50%", 3100, 0.3, true);
-			$('#fourth').parallax("50%", 4000, 0.3, true);
-			$('#fifth').parallax("50%", 5000, 0.3, true);
-			$('#sixth').parallax("50%", 3000, 0.3, true);
-			
-			var deck = new $.scrolldeck({
-				slides: '.slide',
-				buttons: '#nav li a',
-				easing: 'easeInOutExpo'
-			});
-		})
-</script>
+  <body>
 
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/RichardBarrett">View on GitHub</a>
 
-</head>
+          <h1 id="project_title">Richardbarrett.github.com</h1>
+          <h2 id="project_tagline">Portfolio</h2>
 
-<body>
+        </header>
+    </div>
 
-	<ul id="nav">
-		<li><a href="#intro" title="Next Section"></a></li>
-	    <li><a href="#second" title="Next Section"></a></li>
-	    <li><a href="#third" title="Next Section"></a></li>
-	    <li><a href="#fourth" title="Next Section"></a></li>
-	    <li><a href="#fifth" title="Next Section"></a></li>
-	    <li><a href="#sixth" title="Next Section"></a></li>
-	</ul>
-	
-	<div id="intro" class="slide">
-		<div class="story">
-			<div class="main-menu">
-				<ul>
-					<li class="selected"><a href="#intro" title="Next Section">Home</a></li>
-					<li><a href="#second" title="Next Section">Web Design</a></li>
-					<li><a href="#third" title="Next Section">Icons & Illustration</a></li>
-					<li><a href="#intro"><img src="images/PixelPotion.png" /></a></li>
-					<li><a href="#fourth" title="Next Section">Photography</a></li>
-					<li><a href="#fifth" title="Next Section">Skills</a></li>
-					<li><a href="#sixth" title="Next Section">Contact me</a></li>
-				</ul>
-		</div>
-			<div class="welcome-message">
-				<div class="heading"><h1>Hi There! I’m Richard Barrett,</h1></div>
-				<div class="sub-heading"><p>a user experience/web designer with a passion for creating exciting and engaging online experiences.</p></div>
-			</div>
-	    </div> <!--.story-->
-	</div> <!--#intro-->
-	
-	<div id="second" class="slide">
-		<div class="story">
-	   	<div class="slide-header">
-	   		<a href="#intro"><div class="top">TOP</div></a>	
-		    <div class="slide-number">01</div>
-	  	  <div class="slide-details">
-	    	 	<div class="heading slide-heading"><h1>WEB DESIGN</h1></div>
-	     		<div class="sub-heading slide-description ">
-	     			<p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum uctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
-	     		</div>
-	    	</div>
-	  	</div>
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>Welcome to GitHub Pages.</h3>
 
-	  	<div class='gallery-container'>
-  				<div class="gallery">
+<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
 
-						  <a href='images/web-design/01.jpg' class='fresco' data-fresco-group='web-design' data-fresco-caption="Brisbane">
-						  		<img src='images/web-design/web-design-gallery.jpg' id="animate_height_callback" alt=''/>
-						  </a>
-						  <a href='images/web-design/02.jpg' class='fresco' data-fresco-group='web-design' data-fresco-caption="Brisbane">
-						  		
-						  </a>
-						  <a href='images/web-design/03.jpg' class='fresco' data-fresco-group='web-design' data-fresco-caption="Brisbane">
-						  		
-						  </a>
-						  <a href='images/web-design/04.jpg' class='fresco' data-fresco-group='web-design' data-fresco-caption="Brisbane">
-						  		
-						  </a>
+<pre><code>$ cd your_repo_root/repo_name
+$ git fetch origin
+$ git checkout gh-pages
+</code></pre>
 
-					</div>
-			</div>
-		</div> <!--.story-->
-	</div> <!--#second-->
-	
-	<div id="third" class="slide">
-		<div class="story">
-	   	<div class="slide-header">
-	   		<a href="#intro"><div class="top">TOP</div></a>	   		
-		    <div class="slide-number">02</div>
-	  	  <div class="slide-details">
-	    	 	<div class="heading slide-heading">ICONS & ILLUSTRATION</div>
-	     		<div class="sub-heading slide-description ">
-	     			Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum uctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
-	     		</div>
-	    	</div>
-	  	</div>
-	  	<div class='gallery-container'>
-				<div class="click-to-view">
-				  	<a href='images/03-gallery-01.jpg' class='fresco' data-fresco-group='example' data-fresco-caption="Christine photographing the main window" data-fresco-group-options="thumbnails:true">
-				  			<img id="gallery-image" src='images/icons-and-illustration-gallery.png' alt=''/>
-				  	</a>
-				  	<a href='images/03-gallery-02.jpg' class='fresco' data-fresco-group='example' data-fresco-caption="Leaves" data-fresco-group-options="thumbnails:true"></a>
-				  	<a href='images/03-gallery-03.jpg' class='fresco' data-fresco-group='example' data-fresco-caption="City of Brisbane"data-fresco-group-options="thumbnails:true"></a>
-				</div>
-		</div>
-	    </div> <!--.story-->
-	</div> <!--#third-->
-	
-	<div id="fourth" class="slide">
-		<div class="story">
-	   	<div class="slide-header">
-	   		<a href="#intro"><div class="top">TOP</div></a>		
-		    <div class="slide-number">03</div>
-	  	  <div class="slide-details">
-	    	 	<div class="heading slide-heading">PHOTOGRAPHY</div>
-	     		<div class="sub-heading slide-description ">
-	     			Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum uctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
-	     		</div>
-	    	</div>
-	  	</div>
-	  	<div class='gallery-container'>
-		  				<div class="click-to-view">
-							  	<a href='images/03-gallery-01.jpg' class='fresco' data-fresco-group='example' data-fresco-caption="Christine photographing the main window" data-fresco-group-options="thumbnails:true">
-							  			<img id="gallery-image" src='images/photography-gallery.png' alt=''/>
-							  	</a>
-							  	<a href='images/03-gallery-02.jpg' class='fresco' data-fresco-group='example' data-fresco-caption="Leaves" data-fresco-group-options="thumbnails:true"></a>
-							  	<a href='images/03-gallery-03.jpg' class='fresco' data-fresco-group='example' data-fresco-caption="City of Brisbane"data-fresco-group-options="thumbnails:true"></a>
-							</div>
-					</div>		  	
-	    </div> <!--.story-->
-	</div> <!--#fourth-->
+<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
 
-		<div id="fifth" class="slide">
-		<div class="story">
-	   	<div class="slide-header">
-	   		<a href="#intro"><div class="top">TOP</div></a>		   		
-		    <div class="slide-number">04</div>
-	  	  <div class="slide-details">
-	    	 	<div class="heading slide-heading">SKILLS</div>
-	     		<div class="sub-heading slide-description ">
-	     			Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum uctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
-	     		</div>
-	    	</div>
-	  	</div>
-	  	<div class='gallery-container'>
-			  	<div class="skills-container">
-				  		<img src="images/skills.png" class="skills" />		
-				  </div>
-			</div>					  
-	    </div> <!--.story-->
-	</div> <!--#fifth-->
+<h3>Designer Templates</h3>
 
-			<div id="sixth" class="slide">
-		<div class="story">
-	   	<div class="slide-header">
-	   		<a href="#intro"><div class="top">TOP</div></a>		   		
-		    <div class="slide-number">05</div>
-	  	  <div class="slide-details">
-	    	 	<div class="heading slide-heading">CONTACT ME</div>
-	     		<div class="sub-heading slide-description ">
-	     			Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum uctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
-	     		</div>
-	    	</div>
-	  	</div>
-	    </div> <!--.story-->
-	</div> <!--#sixth-->
+<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
 
-	<script src="//static.getclicky.com/js" type="text/javascript"></script>
-	<script type="text/javascript">try{ clicky.init(100571559); }catch(e){}</script>
-	<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100571559ns.gif" /></p></noscript>
+<h3>Rather Drive Stick?</h3>
 
+<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
 
-</body>
+<h3>Authors and Contributors</h3>
+
+<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+
+<h3>Support or Contact</h3>
+
+<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
 </html>
