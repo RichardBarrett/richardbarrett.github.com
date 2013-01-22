@@ -294,6 +294,27 @@ p{
 	vertical-align: middle;
 	position:	relative;
 }
+#html5Loader{
+	top:0;
+	left:0;
+	background-color:black;
+	background-color:rgba(0,0,0,0.95);
+	position:fixed;
+	z-index:99;
+}
+#html5Loader .fallback {
+	top:50%;
+	position:absolute;
+	text-align:center;
+	width:100%;
+	color:white;
+	vertical-align: middle;
+	display: block;
+	font-style: normal;
+}
+div#wrapper > * {
+	width:400px;
+}
 
 .top{
   font-family: 'ChunkFiveRegular';
@@ -357,9 +378,9 @@ p{
 	bottom: 100px;
 	width: 170px;
 	text-align: center;
-    font-family: 'Vezus-Light';
-    font-size: 18px;
-    line-height: 34px;
+  font-family: 'Vezus-Light';
+  font-size: 18px;
+  line-height: 34px;
 }
 .overlay-find {
 	position: absolute;

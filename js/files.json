@@ -1,0 +1,34 @@
+{
+    "files": [
+        {
+            "source": "../images/firstBG.jpg",
+            "type": "IMAGE",
+            "size": 500
+        },  
+        {
+            "source": "../images/secondBG.jpg",
+            "type": "IMAGE",
+            "size": 500
+        },  
+        {
+            "source": "../images/thirdBG.jpg",
+            "type": "IMAGE",
+            "size": 500
+        },  
+        {
+            "source": "../images/fourthBG.jpg",
+            "type": "IMAGE",
+            "size": 500
+        },  
+        {
+            "source": "../images/fifthBG.jpg",
+            "type": "IMAGE",
+            "size": 500
+        },  
+        {
+            "source": "../images/sixthBG.jpg",
+            "type": "IMAGE",
+            "size": 500
+        }
+    ]
+}
