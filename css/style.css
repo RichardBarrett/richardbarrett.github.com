@@ -22,52 +22,52 @@ img{
 }
 
 h1{
-	  font-family: 'ChunkFiveRegular';
-		font-size: 42px;
-		color:#121212;
-		font-weight:normal;
-		margin:0 0 5px 0;
+	font-family: 'ChunkFiveRegular';
+	font-size: 42px;
+	color:#121212;
+	font-weight:normal;
+	margin:0 0 5px 0;
 }
 
 p{
-		font-family: 'Vezus-Light';
-		font-size: 24px;
-		font-weight:normal;
-		line-height:34px;
-		margin:0;
+	font-family: 'Vezus-Light';
+	font-size: 24px;
+	font-weight:normal;
+	line-height:34px;
+	margin:0;
 }
 
 @font-face {
-    font-family: 'CandaraRegular';
-    src: url('../webfonts/candara-webfont.eot');
-    src: url('../webfonts/candara-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../webfonts/candara-webfont.woff') format('woff'),
-         url('../webfonts/candara-webfont.ttf') format('truetype'),
-         url('../webfonts/candara-webfont.svg#CandaraRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'CandaraRegular';
+	src: url('../webfonts/candara-webfont.otf');
+	src: url('../webfonts/candara-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../webfonts/candara-webfont.woff') format('woff'),
+	url('../webfonts/candara-webfont.ttf') format('truetype'),
+	url('../webfonts/candara-webfont.svg#CandaraRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
 
 }
 
 @font-face {
-  font-family: 'ChunkFiveRegular';
-  src:url('../webfonts/Chunkfive-webfont.eot');
-  src:url('../webfonts/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
-      url('../webfonts/Chunkfive-webfont.woff') format('woff'),
-      url('../webfonts/Chunkfive-webfont.ttf') format('truetype'),
-      url('../webfonts/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'ChunkFiveRegular';
+	src:url('../webfonts/Chunkfive-webfont.eot');
+	src:url('../webfonts/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../webfonts/Chunkfive-webfont.woff') format('woff'),
+	url('../webfonts/Chunkfive-webfont.ttf') format('truetype'),
+	url('../webfonts/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Vezus-Light';
 	src:url('../webfonts/256098_0_0.eot');
 	src:url('../webfonts/256098_0_0.eot?#iefix') format('embedded-opentype'),
-			url('../webfonts/256098_0_0.woff') format('woff'),
-			url('../webfonts/256098_0_0.ttf') format('truetype');
+	url('../webfonts/256098_0_0.woff') format('woff'),
+	url('../webfonts/256098_0_0.ttf') format('truetype');
 }
- 
+
 #nav{
 	list-style: none;
 	position: fixed;
@@ -80,214 +80,209 @@ p{
 }
 
 #header, #intro, #second{
-		width: 100%;
+	width: 100%;
 }
 
 .main-menu{
-    color: #8F8F8F;
-    font-family: 'CandaraRegular';
-    font-size: 12px;
-    height: 40px;
-    left: 0;
-    margin: 0 auto;
-    position:fixed;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    width: 100%;
-    padding:20px 0;
-    margin:0;
+	color: #8F8F8F;
+	font-family: 'CandaraRegular';
+	font-size: 12px;
+	height: 40px;
+	left: 0;
+	margin: 0 auto;
+	position:fixed;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 100%;
+	padding:20px 0;
+	margin:0;
 }
+
 .main-menu ul{
 	margin:0;
 }
+
 .main-menu ul li{
-		list-style: none;
-		display:inline-block;
-		padding: 0 10px;
-		margin: 0;
-		color:#8f8f8f;
-		text-decoration: none;
+	list-style: none;
+	display:inline-block;
+	padding: 0 10px;
+	margin: 0;
+	color:#8f8f8f;
+	text-decoration: none;
 }
 
 .main-menu ul li a{
-		color:#8f8f8f;
-		text-decoration: none;		
+	color:#8f8f8f;
+	text-decoration: none;		
 }
 
 .main-menu .selected a{
-		color:#ff0084;
+	color:#ff0084;
 }
 
 .main-menu ul li img{
-		vertical-align: middle;
-		padding: 0 10px;
+	vertical-align: middle;
+	padding: 0 10px;
 }
 
 .slide-number{
-    display: inline-block;
-    float: left;
-    font-family: 'ChunkFiveRegular';
-    font-size: 72px;
-    margin: 0 70px;
+	display: inline-block;
+	float: left;
+	font-family: 'ChunkFiveRegular';
+	font-size: 72px;
+	margin: 0 70px;
 }
 
 #intro{
-		background:url(../images/firstBG.jpg) 50% -95px no-repeat fixed;
-		background-color:#060606;
-    color: white;
-    height: 950px;
-    margin: 0 auto;
-    padding: 0;
+	background:url(../images/firstBG.jpg) no-repeat fixed 50% -95px transparent;
+	background-color:#060606;
+	color: white;
+	height: 950px;
+	margin: 0 auto;
+	padding: 0;
 }
 
 #intro .welcome-message{
-    background: url("../images/welcome-text-bg.png") repeat fixed 0 0 transparent;
-    border-bottom: 1px solid #DDDDDD;
-    bottom: 0px;
-    color: #121212;
-    height: 115px;
-    left: 0;
-    margin: 0 auto;
-    padding: 70px 0;
-    position: absolute;
-    text-align: center;
-    width: 100%;
+	background: url("../images/welcome-text-bg.png") repeat fixed 0 0 transparent;
+	border-bottom: 1px solid #DDDDDD;
+	bottom: 0px;
+	color: #121212;
+	height: 115px;
+	left: 0;
+	margin: 0 auto;
+	padding: 70px 0;
+	position: absolute;
+	text-align: center;
+	width: 100%;
 }
-#intro .welcome-message .heading h2{
-		width:777px;
-		margin:0 auto;
-}
-#intro .welcome-message .sub-heading{
-		width:777px;
-		margin:0 auto;
+#intro .welcome-message .heading h2, #intro .welcome-message .sub-heading {
+	width:777px;
+	margin:0 auto;
 }
 
-#second{
-		background: url(../images/secondBG.jpg) 50% 0 repeat fixed;
-		height: 1075px;
-		margin: 0 auto;
-		padding: 0;
-		overflow: hidden;
+#second, #third, #forth, #fifth, #sixth{
+	height: 1075px;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
 }
 
-#second .story .slide-header .slide-number{color:#ff0084;}
+#second {
+	background: url(../images/secondBG.jpg) no-repeat fixed 50% 0 transparent;
+}
+
+#second .story .slide-header .slide-number {
+	color:#ff0084;
+}
 
 #third{
-		background: url(../images/thirdBG.jpg) 50% 0 repeat fixed;
-		height: 1075px;
-		margin: 0 auto;
-		padding: 0;
-		overflow: hidden;
+	background: url(../images/thirdBG.jpg) repeat fixed 50% 0 transparent;
 }
 
-#third .story .slide-header .slide-number{color:#00e730;}
-
-#fourth{
-		background: url(../images/fourthBG.jpg) 50% 0 repeat fixed;
-		height: 1075px;
-		margin: 0 auto;
-		padding: 0;
-		overflow: hidden;
+#third .story .slide-header .slide-number {
+	color:#00e730;
 }
 
-#fourth .story .slide-header .slide-number{color:#3fabff;}
+#forth{
+	background: url(../images/fourthBG.jpg) no-repeat fixed 50% 0 transparent;
+}
+
+#forth .story .slide-header .slide-number {
+	color:#3fabff;
+}
 
 #fifth{
-		background: url(../images/fifthBG.png) 50% 0 repeat fixed;
-		height: 1075px;
-		margin: 0 auto;
-		padding: 0;
-		overflow: hidden;
+	background: url(../images/fifthBG.png) repeat fixed 50% 0 transparent;
+	background-color: ##111111;
 }
 
-#fifth .story .slide-header .slide-number{color:#ffae00;}
+#fifth .story .slide-header .slide-number {
+	color:#2e2e2e;
+}
 
 #sixth{
-		background: url(../images/sixthBG.jpg) 50% 0 repeat fixed;
-		height: 1075px;
-		margin: 0 auto;
-		padding: 0;
-		overflow: hidden;
+	background: url(../images/sixthBG.jpg) no-repeat fixed 50% 0 transparent;
 }
 
-#sisth .story .slide-header .slide-number {
-		color:#121212;
+#sixth .story .slide-header .slide-number {
+	color:#fac948;
 }
 
 .story{
-		margin: 0 auto;
-		overflow: auto;}
+	margin: 0 auto;
+	overflow: auto;
+}
 
 .story .float-left, .story .float-right{
-		padding: 0 0 0 0;
-		position: relative;
-		width: 350px;	
+	padding: 0 0 0 0;
+	position: relative;
+	width: 350px;	
 }
 
 .slide {
-		width: 100%;
+	width: 100%;
 }
 
 #nav li a {
-		display: block;
-		width: 10px;
-		height: 10px;
-		border-radius: 10px;
-		background-color: white;
-		border: solid 2px white;
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	background-color: white;
+	border: solid 2px white;
 }
 
 #nav li a.current {
-		background-color: orange;
+	background-color: orange;
 }
 
 .slide-header{
-    background-color: #FFFFFF;
-    display: inline-block;
-    margin: 0;
-    padding: 70px 0;
-    width: 100%;
+	background-color: #FFFFFF;
+	display: inline-block;
+	margin: 0;
+	padding: 70px 0;
+	width: 100%;
 }
 
 .slide-header .slide-details  {
-    color: #121212 !important;
-    display: inline-block;
+	color: #121212 !important;
+	display: inline-block;
 }
 
 .slide-header .slide-details .slide-heading{
-    display: inline-block;
-    float: left;
-    font-family: 'ChunkFiveRegular';
-    font-size: 42px;
-    margin-bottom: 5px;
-    width: 900px;
+	display: inline-block;
+	float: left;
+	font-family: 'ChunkFiveRegular';
+	font-size: 42px;
+	margin-bottom: 5px;
+	width: 900px;
 }
 
 .slide-header .slide-details .slide-description{
-    clear: both;
-    display: inline-block;
-    float: left;
-    font-family: 'Vezus-Light';
-    font-size: 24px;
-    line-height: 34px;
-    width: 900px;
+	clear: both;
+	display: inline-block;
+	float: left;
+	font-family: 'Vezus-Light';
+	font-size: 24px;
+	line-height: 34px;
+	width: 900px;
 }
 
 .gallery-container{
-		height:975px;
-		padding:50px 0;
-		text-align:center;
-		overflow:hidden;
-		display:block;
+	height:975px;
+	padding:50px 0;
+	text-align:center;
+	overflow:hidden;
+	display:block;
 }
 
 .gallery{
-		width:703px;
-		height:500px;
-		padding:0;
-		margin:0;
-		margin:0 auto;
+	width:703px;
+	height:500px;
+	padding:0;
+	margin:0;
+	margin:0 auto;
 }
 
 .gallery img{
@@ -317,9 +312,9 @@ div#wrapper > * {
 }
 
 .top{
-  font-family: 'ChunkFiveRegular';
-  font-size: 30px;
-  font-weight: normal;	
+	font-family: 'ChunkFiveRegular';
+	font-size: 30px;
+	font-weight: normal;	
 	float:right;
 	margin-right:100px;
 	vertical-align: middle;
@@ -341,22 +336,20 @@ div#wrapper > * {
 }
 
 .skills-container{
-		width:960px;
-		height:588px;
-		margin:0 auto;
-		padding:0;
+	width:960px;
+	height:588px;
+	margin:0 auto;
+	padding:0;
 }
-
 
 .gallery-link:hover {
 	background-size: 110%;
-
 }
+
 .gallery-link {
 	width: 650px;
 	height: 650px;
 	background-position: center;
-	background-image: url(../images/web-design/web-design-gallery.jpg)
 }
 
 .overlay {
@@ -375,12 +368,12 @@ div#wrapper > * {
 	position: absolute;
 	left: 50%;
 	margin-left: -75px;
-	bottom: 100px;
+	bottom: 150px;
 	width: 170px;
 	text-align: center;
-  font-family: 'Vezus-Light';
-  font-size: 18px;
-  line-height: 34px;
+	font-family: 'Vezus-Light';
+	font-size: 18px;
+	line-height: 34px;
 }
 .overlay-find {
 	position: absolute;
@@ -389,5 +382,57 @@ div#wrapper > * {
 	left: 50%;
 	margin-left: -35px;
 	height: 90px;
-	top: 100px;
+	top: 150px;
+}
+.contact {
+	font-family: 'Vezus-Light';
+	font-size: 32px;
+	width:100%;
+	padding: 150px 0 0;
+	text-align:	center;	
+}
+
+.contact ul.contact-email, .contact ul.contact-twitter {
+	margin:0 auto;
+	list-style-type: none;
+}
+
+.contact ul.contact-email li, .contact ul.contact-twitter li {
+	color:#121212;
+	line-height: 75px;
+	-webkit-border-radius: 40px; 
+	-moz-border-radius: 40px; 
+	border-radius: 40px; 	
+	margin: 25px auto;
+	background-color: #fac948;	
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+	padding: 0 30px 0 85px;
+	display: inline-block;
+}
+
+.contact ul.contact-email li {
+	background-image: url("../images/contact-email.png");
+}
+
+.contact ul.contact-twitter li  {
+	background-image: url("../images/contact-twitter.png");
+}
+
+.contact ul.contact-email a, .contact ul.contact-twitter {
+	text-decoration: none;
+	color:#121212;
+}
+
+.contact ul.contact-email a li:hover, .contact ul.contact-twitter a li:hover {
+	color:#fac948;
+	background-color:#121212;	
+}
+
+.contact ul.contact-email a li:hover {
+	background-image: url("../images/contact-email-hover.png");
+}
+
+.contact ul.contact-twitter a li:hover {
+	background-image: url("../images/contact-twitter-hover.png");
 }
