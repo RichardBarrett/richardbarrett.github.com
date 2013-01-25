@@ -132,6 +132,7 @@ p{
 	font-family: 'ChunkFiveRegular';
 	font-size: 72px;
 	margin: 0 70px;
+	height:150px;
 }
 
 #intro{
@@ -181,7 +182,7 @@ p{
 }
 
 #third .story .slide-header .slide-number {
-	color:#00e730;
+	color:#db0b00;
 }
 
 #forth{
@@ -342,14 +343,32 @@ div#wrapper > * {
 	padding:0;
 }
 
-.gallery-link:hover {
+/*.gallery-link:hover {
 	background-size: 110%;
-}
+}*/
 
 .gallery-link {
 	width: 650px;
 	height: 650px;
 	background-position: center;
+}
+
+.web-design-container {
+	background-image: url("../images/web-design-gallery.jpg");
+	background-position: center center;
+	background-size:100%;
+}
+
+.icons-and-illustration-container {
+	background-image: url("../images/icons-and-illustration-gallery-link.jpg");
+	background-position: center center;
+	background-size:100%;
+}
+
+.photography-container {
+	background-image: url("../images/photography-gallery-link.jpg");
+	background-position: center center;
+	background-size:100%;
 }
 
 .overlay {
