@@ -186,7 +186,7 @@ p{
 }
 
 #forth{
-	background: url(../images/fourthBG.jpg) no-repeat fixed 50% 0 transparent;
+	background: url(../images/forthBG.jpg) no-repeat fixed 50% 0 transparent;
 }
 
 #forth .story .slide-header .slide-number {
@@ -360,13 +360,13 @@ div#wrapper > * {
 }
 
 .icons-and-illustration-container {
-	background-image: url("../images/icons-and-illustration-gallery-link.jpg");
+	background-image: url("../images/icons-and-illustration-gallery.jpg");
 	background-position: center center;
 	background-size:100%;
 }
 
 .photography-container {
-	background-image: url("../images/photography-gallery-link.jpg");
+	background-image: url("../images/photography-gallery.jpg");
 	background-position: center center;
 	background-size:100%;
 }
