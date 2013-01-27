@@ -177,16 +177,6 @@ p{
 	color:#ff0084;
 }
 
-.click-here{
-	background: url(../images/click-here.png) 0 no-repeat fixed;
-	height: 1300px;
-	width: 480px;	
-	margin: 0 auto;
-	padding: 0;
-	position: absolute;
-	z-index: 200;
-}
-
 #third{
 	background: url(../images/thirdBG.jpg) repeat fixed 50% 0 transparent;
 }
@@ -289,17 +279,50 @@ p{
 }
 
 .gallery{
-	width:703px;
-	height:500px;
+	width:650px;
+	height:650px;
 	padding:0;
 	margin:0;
 	margin:0 auto;
+	text-align: center;
 }
 
 .gallery img{
 	vertical-align: middle;
 	position:	relative;
 }
+
+.gallery ul.gallery-label {
+	font-family: 'Chunkfive';
+	font-size:20px;
+	color:#121212;
+	-webkit-border-radius: 20px; 
+	-moz-border-radius: 20px; 
+	border-radius: 20px; 
+	background-color: #fac948;	
+	background-repeat: no-repeat;
+	list-style-type: none;
+	position: absolute;
+	bottom: 80px;
+	width:160px;
+	left: 50%;
+	margin: 0 auto 0 -80px;
+	background-image: url("../images/gallery-icon.png");
+	background-repeat: no-repeat;
+	background-position: 4px 4px;
+	padding: 0;
+	border: 2px solid #121212;
+	box-shadow: 0 0 5px #121212;
+}
+
+.gallery ul.gallery-label li {
+	background-color: #fac948;	
+	display: inline-block;	
+	padding: 0;
+	margin-left: 20px;
+	line-height: 38px;
+}
+
 #html5Loader{
 	top:0;
 	left:0;
