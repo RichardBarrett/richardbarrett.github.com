@@ -11,17 +11,17 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 @charset "utf-8";
 /* CSS Document */
 
-body{
+body {
 	margin: 0;
-	min-width: 980px;
+	min-width: 1920px;
 	padding: 0;
 }
 
-img{
+img {
 	border: 0;
 }
 
-h1{
+h1 {
 	font-family: 'ChunkFiveRegular';
 	font-size: 42px;
 	color:#121212;
@@ -145,7 +145,7 @@ p{
 }
 
 #intro .welcome-message{
-	background: url("../images/welcome-text-bg.png") repeat fixed 0 0 transparent;
+	background: url("../images/welcome-text-bg.jpg") repeat fixed 0 0 transparent;
 	border-bottom: 1px solid #DDDDDD;
 	bottom: 0px;
 	color: #121212;
@@ -175,6 +175,16 @@ p{
 
 #second .story .slide-header .slide-number {
 	color:#ff0084;
+}
+
+.click-here{
+	background: url(../images/click-here.png) 0 no-repeat fixed;
+	height: 1300px;
+	width: 480px;	
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	z-index: 200;
 }
 
 #third{
