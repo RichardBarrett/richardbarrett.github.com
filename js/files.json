@@ -3,67 +3,67 @@
         {
             "source": "http://richardbarrett.github.com/images/firstBG.jpg",
             "type": "IMAGE",
-            "size": 171
+            "size": 37.7
         },  
         {
             "source": "http://richardbarrett.github.com/images/secondBG.jpg",
             "type": "IMAGE",
-            "size": 126
+            "size": 55.5
         },  
         {
             "source": "http://richardbarrett.github.com/images/thirdBG.jpg",
             "type": "IMAGE",
-            "size": 174
+            "size": 148
         },  
         {
             "source": "http://richardbarrett.github.com/images/fourthBG.jpg",
             "type": "IMAGE",
-            "size": 146
+            "size": 115
         },  
         {
             "source": "http://richardbarrett.github.com/images/fifthBG.png",
             "type": "IMAGE",
-            "size": 10
+            "size": 9.77
         },  
         {
             "source": "http://richardbarrett.github.com/images/sixthBG.jpg",
             "type": "IMAGE",
-            "size": 157
+            "size": 138
         },
         {
             "source": "http://richardbarrett.github.com/images/web-design-gallery.jpg",
             "type": "IMAGE",
-            "size": 135
+            "size": 80.1
         },
         {
             "source": "http://richardbarrett.github.com/images/icons-and-illustration-gallery.jpg",
             "type": "IMAGE",
-            "size": 129
+            "size": 30.9
         },
         {
             "source": "http://richardbarrett.github.com/images/photography-gallery.jpg",
             "type": "IMAGE",
-            "size": 130
+            "size": 38.8
         },
         {
             "source": "http://richardbarrett.github.com/images/contact-email.png",
             "type": "IMAGE",
-            "size": 2
+            "size": 2.11
         },
         {
             "source": "http://richardbarrett.github.com/images/contact-email-hover.png",
             "type": "IMAGE",
-            "size": 2
+            "size": 2.05
         },
         {
             "source": "http://richardbarrett.github.com/images/contact-twitter.png",
             "type": "IMAGE",
-            "size": 2
+            "size": 2.24
         },
         {
             "source": "http://richardbarrett.github.com/images/contact-twitter-hover.png",
             "type": "IMAGE",
-            "size": 2
+            "size": 2.16
         },
         {
             "source": "http://richardbarrett.github.com/images/skills.png",
@@ -73,22 +73,27 @@
         {
             "source": "http://richardbarrett.github.com/images/top.png",
             "type": "IMAGE",
-            "size": 1
+            "size": 1.33
         },
         {
             "source": "http://richardbarrett.github.com/images/top-hover.png",
             "type": "IMAGE",
-            "size": 1
+            "size": 1.34
         },
         {
             "source": "http://richardbarrett.github.com/images/view-gallery.png",
             "type": "IMAGE",
-            "size": 7
+            "size": 6.54
         },
         {
             "source": "http://richardbarrett.github.com/images/welcome-text-bg.jpg",
             "type": "IMAGE",
-            "size": 24
+            "size": 23.9
+        },
+        {
+            "source": "http://richardbarrett.github.com/images/gallery-icon.png",
+            "type": "IMAGE",
+            "size": 1.77
         }
     ]
 }
