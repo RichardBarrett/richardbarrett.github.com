@@ -144,7 +144,7 @@ p{
 }
 
 #intro{
-	background:url(../images/firstBG.jpg) no-repeat fixed 50% -95px transparent;
+	background:url(../images/firstBG.jpg) repeat fixed 50% -95px transparent;
 	background-color:#060606;
 	color: white;
 	height: 950px;
@@ -178,7 +178,7 @@ p{
 }
 
 #second {
-	background: url(../images/secondBG.jpg) no-repeat fixed 50% 0 transparent;
+	background: url(../images/secondBG.jpg) repeat fixed 50% 0 transparent;
 }
 
 #second .story .slide-header .slide-number {
@@ -194,7 +194,7 @@ p{
 }
 
 #forth{
-	background: url(../images/forthBG.jpg) no-repeat fixed 50% 0 transparent;
+	background: url(../images/forthBG.jpg) repeat fixed 50% 0 transparent;
 }
 
 #forth .story .slide-header .slide-number {
