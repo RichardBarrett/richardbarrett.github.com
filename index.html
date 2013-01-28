@@ -6,6 +6,7 @@
 	<meta name="description" content="Hi There! I’m Richard Barrett, a user experience/web designer with a passion for creating exciting and engaging online experiences." />
 	<meta name="google-site-verification" content="9a22N1L4CccuQPulPv7FEq8plYGgyB7mGVB4XI_C5AA" />
 	<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="js/qtip.js"></script>
 	<script type="text/javascript" src="js/jquery.scrollTo-1.4.3.1.min.js"></script>
 	<script src="js/jQuery.html5Loader.circular.js"></script>
 	<script src="js/jQuery.html5Loader.js"></script>
@@ -28,6 +29,29 @@
 		  $(document).ready(function(){
 			$('#nav').hide();
 
+			$("#nav li a").qtip({			
+				style: { 
+				    padding: 5,
+				    background: '#fac948',
+				    color: '#121212',
+				    fontFamily: 'ChunkFive',
+				    fontSize: '18px',
+				    textAlign: 'center',
+				    border: {
+				         width: 2,
+				         radius: 5,
+				         color: '#121212'
+				    },
+				    tip: 'rightMiddle'
+			   	},
+			   	position: {
+			      	corner: {
+				        target: 'leftMiddle',
+				        tooltip: 'rightMiddle'
+			      	}
+   				}			   	
+			});
+
 			var whenReady = function () {
 				$("html").niceScroll();
 				RepositionNav();
@@ -38,7 +62,6 @@
 				
 				$('#intro').parallax("50%", 0, 0.1, true);
 				$('#second').parallax("50%", 2250, 0.4, true);
-				$('.click-here').parallax("50%", 3500, 0.2, true);
 				$('#third').parallax("50%", 3100, 0.4, true);
 				$('#forth').parallax("50%", 4000, 0.4, true);
 				$('#fifth').parallax("50%", 5000, 0.4, true);
@@ -133,13 +156,13 @@
 		<div class="story">
 			<div class="main-menu">
 				<ul>
-					<li class="selected"><a href="#intro" title="Home">Home</a></li>
-					<li><a href="#second" title="Web design">Web Design</a></li>
-					<li><a href="#third" title="Icons & illustration">Icons & Illustration</a></li>
+					<li class="selected">Home</li>
+					<li><a href="#second">Web Design</a></li>
+					<li><a href="#third">Icons & Illustration</a></li>
 					<li><a href="#intro"><img src="images/PixelPotion.png" /></a></li>
-					<li><a href="#forth" title="Photography">Photography</a></li>
-					<li><a href="#fifth" title="Skills">Skills</a></li>
-					<li><a href="#sixth" title="Contact me">Contact me</a></li>
+					<li><a href="#forth">Photography</a></li>
+					<li><a href="#fifth">Skills</a></li>
+					<li><a href="#sixth">Contact me</a></li>
 				</ul>
 			</div>
 			<div class="welcome-message">
@@ -151,13 +174,13 @@
 	
 	<div id="second" class="slide">
 		<div class="story">
-			<div class="slide-header">
-				<a href="#intro"><div class="top">TOP</div></a>	
+			<div class="slide-header">		
+				<a href="#intro" class="top">TOP</a>			
 				<div class="slide-number">01</div>
-				<div class="slide-details">
-					<div class="heading slide-heading"><h1>WEB DESIGN</h1></div>
+				<div class="slide-details">					
+					<div class="heading slide-heading"><h1>WEB DESIGN</h1></div>					
 					<div class="sub-heading slide-description ">
-						<p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum uctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+						<p>I've been involved in web design since the mid-90s. My experience has made me versatile and helps me think outside the box. Check out <a href="http://apiengine.io">API Engine</a>, my most recent web design project, to see my creativity in action!</p>
 					</div>
 				</div>
 			</div>
@@ -193,13 +216,13 @@
 	
 	<div id="third" class="slide">
 		<div class="story">
-			<div class="slide-header">
-				<a href="#intro"><div class="top">TOP</div></a>	   		
+			<div class="slide-header">  	
+				<a href="#intro" class="top">TOP</a>	
 				<div class="slide-number">02</div>
-				<div class="slide-details">
-					<div class="heading slide-heading">ICONS & ILLUSTRATION</div>
+				<div class="slide-details">					
+					<div class="heading slide-heading"><h1>ICONS & ILLUSTRATION</h1></div>					
 					<div class="sub-heading slide-description ">
-						Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum uctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+						<p>I take pride in my original and user-centric approach. I can be both conventional and unconventional, depending on the design brief, and I always strive to innovative and forward-thinking.</p>
 					</div>
 				</div>
 			</div>
@@ -228,13 +251,13 @@
 	
 	<div id="forth" class="slide">
 		<div class="story">
-			<div class="slide-header">
-				<a href="#intro"><div class="top">TOP</div></a>		
+			<div class="slide-header">	
+				<a href="#intro" class="top">TOP</a>
 				<div class="slide-number">03</div>
-				<div class="slide-details">
-					<div class="heading slide-heading">PHOTOGRAPHY</div>
+				<div class="slide-details">					
+					<div class="heading slide-heading"><h1>PHOTOGRAPHY</h1></div>					
 					<div class="sub-heading slide-description ">
-						Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum uctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+						<p>To me, photography means me and my smartphone's camera against the world. Photographs tell stories and I absolutely love documenting the good, the bad, or the ugly of my surroundings in this way.</p>
 					</div>
 				</div>
 			</div>
@@ -292,13 +315,13 @@
 
 	<div id="fifth" class="slide">
 		<div class="story">
-			<div class="slide-header">
-				<a href="#intro"><div class="top">TOP</div></a>		   		
+			<div class="slide-header">		
+				<a href="#intro" class="top">TOP</a>				   		
 				<div class="slide-number">04</div>
-				<div class="slide-details">
-					<div class="heading slide-heading">SKILLS</div>
+				<div class="slide-details">					
+					<div class="heading slide-heading"><h1>SKILLS</h1></div>
 					<div class="sub-heading slide-description ">
-						Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum uctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+						<p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum uctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
 					</div>
 				</div>
 			</div>
@@ -312,16 +335,19 @@
 
 	<div id="sixth" class="slide">
 		<div class="story">
-			<div class="slide-header">
-				<a href="#intro"><div class="top">TOP</div></a>		   		
+			<div class="slide-header">	
+			<a href="#intro" class="top">TOP</a>					   		
 				<div class="slide-number">05</div>
 				<div class="slide-details">
-					<div class="heading slide-heading">CONTACT ME</div>
+					
+					<div class="heading slide-heading"><h1>CONTACT ME</h1></div>
 					<div class="sub-heading slide-description ">
-						Drop me a line if you would like discuss working together to create something special.
+						<p>Drop me a line if you would like discuss working together to create something special.</p>
 					</div>
 				</div>
 			</div>
+						<p></p>
+
 			<div class="contact">
 				<ul class="contact-email">
 					<a href="mailto:ricbarrett@gmail.com">

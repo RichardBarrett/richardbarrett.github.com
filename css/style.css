@@ -120,8 +120,13 @@ p{
 	text-decoration: none;		
 }
 
-.main-menu .selected a{
+.main-menu .selected{
 	color:#ff0084;
+	text-decoration: none;
+}
+.main-menu ul li a:hover{
+	color:#fff;
+	text-decoration: none;
 }
 
 .main-menu ul li img{
@@ -233,8 +238,11 @@ p{
 	width: 10px;
 	height: 10px;
 	border-radius: 10px;
-	background-color: white;
-	border: solid 2px white;
+	background-color: #121212;
+	border: solid 1px #fff;
+	margin:20px 0;
+	font-family: 'Chunkfive';
+	font-size: 18px;
 }
 
 #nav li a.current {
@@ -250,30 +258,44 @@ p{
 }
 
 .slide-header .slide-details  {
-	color: #121212 !important;
+	color: #121212;
 	display: inline-block;
+	position: absolute;
 }
 
-.slide-header .slide-details .slide-heading{
+.slide-header .slide-details .slide-heading {
 	display: inline-block;
 	float: left;
 	font-family: 'ChunkFiveRegular';
 	font-size: 42px;
 	margin-bottom: 5px;
-	width: 900px;
+	white-space: nowrap;
 }
 
-.slide-header .slide-details .slide-description{
+.slide-header .slide-details .slide-description {
 	clear: both;
 	display: inline-block;
 	float: left;
 	font-family: 'Vezus-Light';
 	font-size: 24px;
 	line-height: 34px;
-	width: 900px;
+	padding-right:220px;
 }
 
-.gallery-container{
+.slide-header .slide-details .slide-description p a {
+	color: #FF0084;
+	text-decoration: none;
+}
+
+.slide-header .slide-details .slide-description p a:hover {
+	text-decoration: underline;
+}
+
+.slide-header .slide-details .slide-description p a:visited {
+	color: #FF0084;
+}
+
+.gallery-container {
 	height:975px;
 	padding:50px 0;
 	text-align:center;
@@ -281,7 +303,7 @@ p{
 	display:block;
 }
 
-.gallery{
+.gallery {
 	width:650px;
 	height:650px;
 	padding:0;
@@ -290,7 +312,7 @@ p{
 	text-align: center;
 }
 
-.gallery img{
+.gallery img {
 	vertical-align: middle;
 	position:	relative;
 }
@@ -306,7 +328,7 @@ p{
 	background-repeat: no-repeat;
 	list-style-type: none;
 	position: absolute;
-	bottom: 80px;
+	bottom: 110px;
 	width:160px;
 	left: 50%;
 	margin: 0 auto 0 -80px;
@@ -326,7 +348,7 @@ p{
 	line-height: 38px;
 }
 
-#html5Loader{
+#html5Loader {
 	top:0;
 	left:0;
 	background-color:black;
@@ -348,11 +370,13 @@ div#wrapper > * {
 	width:400px;
 }
 
-.top{
+
+.slide-header a.top {
 	font-family: 'ChunkFiveRegular';
 	font-size: 30px;
 	font-weight: normal;	
 	float:right;
+	z-index: 200;
 	margin-right:100px;
 	vertical-align: middle;
 	color:#ccc;
@@ -365,23 +389,26 @@ div#wrapper > * {
 	text-transform: uppercase;
 	text-align: left;
 	line-height: 48px;	
+	position: relative;
 }
 
-.top:hover{
+
+.slide-header a.top:hover {
 	color:#121212;
 	background-image:url(../images/top-hover.png);
 }
 
-.skills-container{
+.skills-container {
 	width:960px;
 	height:588px;
 	margin:0 auto;
 	padding:0;
 }
 
-/*.gallery-link:hover {
-	background-size: 110%;
-}*/
+.skills-container img {
+	vertical-align: middle;
+	margin-top:	30px;
+}
 
 .gallery-link {
 	width: 650px;
@@ -470,7 +497,7 @@ div#wrapper > * {
 	background-image: url("../images/contact-email.png");
 }
 
-.contact ul.contact-twitter li  {
+.contact ul.contact-twitter li {
 	background-image: url("../images/contact-twitter.png");
 }
 
