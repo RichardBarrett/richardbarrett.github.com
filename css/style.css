@@ -211,7 +211,7 @@ p{
 }
 
 #sixth{
-	background: url(../images/sixthBG.jpg) no-repeat fixed 50% 0 transparent;
+	background: url(../images/sixthBG.jpg) repeat fixed 50% 0 transparent;
 }
 
 #sixth .story .slide-header .slide-number {
