@@ -167,7 +167,8 @@ p{
 }
 #intro .welcome-message h2, #intro .welcome-message p {
 	margin:0 auto;
-	max-width: 777px
+	max-width: 777px;
+	padding: 0 20px;
 }
 
 #second, #third, #forth, #fifth, #sixth{
@@ -262,7 +263,7 @@ p{
 }
 
 .slide-header .slide-details h2 {
-	display: inline-block;
+	clear: both;
 	float: left;
 	font-family: 'ChunkFiveRegular';
 	font-size: 42px;
@@ -271,7 +272,7 @@ p{
 }
 
 .slide-header .slide-details p {
-	display: inline-block;
+	clear: both;
 	float: left;
 	font-family: 'Vezus-Light';
 	font-size: 24px;
@@ -373,7 +374,7 @@ div#wrapper > * {
 	font-size: 30px;
 	font-weight: normal;	
 	float:right;
-	z-index: 200;
+	z-index: 100;
 	margin-right:100px;
 	vertical-align: middle;
 	color:#ccc;
