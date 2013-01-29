@@ -264,8 +264,6 @@ p{
 }
 
 .slide-header .slide-details h2 {
-	clear: both;
-	float: left;
 	font: 42px/1 'ChunkFiveRegular';
 	margin: 0;
 	color: #121212;
@@ -275,14 +273,12 @@ p{
 }
 
 .slide-header .slide-details p {
-	float: left;
 	font: 24px/1 'Vezus-Light';
 	line-height: 34px;
 	margin-top:10px;
 	display:block;
 	width:100%;
 	white-space:normal;
-	height: 100px;
 }
 
 .slide-header .slide-details p a {
@@ -657,7 +653,7 @@ div#wrapper > * {
 	.slide-header .slide-details h2 {
 		font-size: 30px;
 	}
-	
+
 	.slide-header .slide-details p {
 		font-size: 18px;
 		line-height: 24px;
