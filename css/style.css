@@ -176,19 +176,19 @@ p{
 }
 
 #first {
-	background: url(../images/backgrounds/1920/01.jpg) repeat fixed 50% -95px transparent;
+	background: url(../images/backgrounds/1920/01.jpg) no-repeat fixed 50% -95px transparent;
 }
 
 #second {
-	background: url(../images/backgrounds/1920/02.jpg) repeat fixed 50% 0 transparent;
+	background: url(../images/backgrounds/1920/02.jpg) no-repeat fixed 50% 0 transparent;
 }
 
 #third {
-	background: url(../images/backgrounds/1920/03.jpg) repeat fixed 50% 0 transparent;
+	background: url(../images/backgrounds/1920/03.jpg) no-repeat fixed 50% 0 transparent;
 }
 
 #forth {
-	background: url(../images/backgrounds/1920/04.jpg) repeat fixed 50% 0 transparent; 
+	background: url(../images/backgrounds/1920/04.jpg) no-repeat fixed 50% 0 transparent; 
 }
 
 #fifth {
@@ -196,7 +196,7 @@ p{
 }
 
 #sixth {
-	background: url(../images/backgrounds/1920/06.jpg) repeat fixed 50% 0 transparent; 
+	background: url(../images/backgrounds/1920/06.jpg) no-repeat fixed 50% 0 transparent; 
 }
 
 #second .story .slide-header .slide-number {
@@ -259,26 +259,30 @@ p{
 }
 
 .slide-header .slide-details  {
-	overflow: auto;
+	width: auto;
+	overflow: hidden;
 }
 
 .slide-header .slide-details h2 {
 	clear: both;
 	float: left;
-	font-family: 'ChunkFiveRegular';
-	font-size: 42px;
+	font: 42px/1 'ChunkFiveRegular';
 	margin: 0;
 	color: #121212;
 	display: block;
+	width:100%;
+	white-space:normal;
 }
 
 .slide-header .slide-details p {
-	clear: both;
 	float: left;
-	font-family: 'Vezus-Light';
-	font-size: 24px;
+	font: 24px/1 'Vezus-Light';
 	line-height: 34px;
 	margin-top:10px;
+	display:block;
+	width:100%;
+	white-space:normal;
+	height: 100px;
 }
 
 .slide-header .slide-details p a {
