@@ -144,9 +144,7 @@ p{
 }
 
 #intro{
-	background:url(../images/firstBG.jpg) repeat fixed 50% -95px transparent;
 	background-color:#060606;
-	color: white;
 	height: 950px;
 	margin: 0 auto;
 	padding: 0;
@@ -178,41 +176,36 @@ p{
 	overflow: hidden;
 }
 
-#second {
-	background: url(../images/secondBG.jpg) repeat fixed 50% 0 transparent;
+
+#intro { background-image: url(images/backgrounds/1920/01.jpg) repeat fixed 50% -95px transparent; }
+
+#second { background-image: url(images/backgrounds/1920/02.jpg) repeat fixed 50% -95px transparent; }
+
+#third { background-image: url(images/backgrounds/1920/03.jpg) repeat fixed 50% -95px transparent; }
+
+#forth { background-image: url(images/backgrounds/1920/04.jpg) repeat fixed 50% -95px transparent; }
+
+#fifth {
+	background: url(../images/fifthBG.png) repeat fixed 50% 0 transparent;
+	background-color: ##111111;
 }
+
+#sixth { background-image: url(images/backgrounds/1920/06.jpg) repeat fixed 50% -95px transparent; }
 
 #second .story .slide-header .slide-number {
 	color:#ff0084;
-}
-
-#third{
-	background: url(../images/thirdBG.jpg) repeat fixed 50% 0 transparent;
 }
 
 #third .story .slide-header .slide-number {
 	color:#db0b00;
 }
 
-#forth{
-	background: url(../images/forthBG.jpg) repeat fixed 50% 0 transparent;
-}
-
 #forth .story .slide-header .slide-number {
 	color:#3fabff;
 }
 
-#fifth{
-	background: url(../images/fifthBG.png) repeat fixed 50% 0 transparent;
-	background-color: ##111111;
-}
-
 #fifth .story .slide-header .slide-number {
 	color:#2e2e2e;
-}
-
-#sixth{
-	background: url(../images/sixthBG.jpg) repeat fixed 50% 0 transparent;
 }
 
 #sixth .story .slide-header .slide-number {
@@ -269,6 +262,7 @@ p{
 	font-size: 42px;
 	margin: 0;
 	color: #121212;
+	display: block;
 }
 
 .slide-header .slide-details p {
@@ -518,3 +512,5 @@ div#wrapper > * {
 .contact ul.contact-twitter a li:hover {
 	background-image: url("../images/contact-twitter-hover.png");
 }
+
+
