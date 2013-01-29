@@ -143,12 +143,6 @@ p{
 	height:150px;
 }
 
-#first {
-	height: 950px;
-	margin: 0 auto;
-	padding: 0;
-}
-
 #first .welcome-message{
 	background: url("../images/welcome-text-bg.jpg") repeat fixed 0 0 transparent;
 	border-bottom: 1px solid #DDDDDD;
@@ -168,8 +162,14 @@ p{
 	padding: 0 20px;
 }
 
+#first {
+	height: 950px;
+	margin: 0 auto;
+	padding: 0;
+}
+
 #second, #third, #forth, #fifth, #sixth{
-	height: 1075px;
+	height: 1050px;
 	margin: 0 auto;
 	padding: 0;
 	overflow: hidden;
@@ -520,4 +520,148 @@ div#wrapper > * {
 	background-image: url("../images/contact-twitter-hover.png");
 }
 
+@media screen and (max-width: 720px) {
 
+	#first .welcome-message {
+		height: 75px;
+	}
+
+	#first {
+	height: 450px;
+	margin: 0 auto;
+	padding: 0;
+	}
+
+	#second, #third, #forth, #fifth, #sixth{
+		height: 1050px;
+		margin: 0 auto;
+		padding: 0;
+		overflow: hidden;
+	}
+
+	#first {
+		background: url(../images/backgrounds/768/01.jpg) no-repeat fixed 50% -40px transparent;
+	}
+
+	#second {
+		background: url(../images/backgrounds/768/02.jpg) no-repeat fixed 50% -150px transparent;
+	}
+
+	#third {
+		background: url(../images/backgrounds/768/03.jpg) no-repeat fixed 50% -150px transparent;
+	}
+
+	#forth {
+		background: url(../images/backgrounds/768/04.jpg) no-repeat fixed 50% -150px transparent; 
+	}
+
+	#fifth {
+		background: url(../images/05.png) repeat fixed 50% 0 transparent; 
+	}
+
+	#sixth {
+		background: url(../images/backgrounds/768/06.jpg) no-repeat fixed 50% -150px transparent; 
+	}
+
+	#first .welcome-message h1 {
+		font-size: 24px;
+	}
+
+	#first .welcome-message p {
+		font-size: 14px;
+		line-height:20px;
+	}
+
+	#first .welcome-message h2, #first .welcome-message p {
+		max-width:575px;
+	}
+
+	.slide-header {
+		padding: 15px 0;
+	}
+
+	.slide-header .slide-details h2 {
+		font-size: 24px;
+	}
+	.slide-header .slide-details p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.slide-number {
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+
+	#first .welcome-message {
+		height: 75px;
+	}
+
+	#first {
+	height: 650px;
+	margin: 0 auto;
+	padding: 0;
+	}
+
+	#second, #third, #forth, #fifth, #sixth{
+		height: 1050px;
+		margin: 0 auto;
+		padding: 0;
+		overflow: hidden;
+	}
+
+	#first {
+		background: url(../images/backgrounds/1024/01.jpg) no-repeat fixed 50% -40px transparent;
+	}
+
+	#second {
+		background: url(../images/backgrounds/1024/02.jpg) no-repeat fixed 50% -150px transparent;
+	}
+
+	#third {
+		background: url(../images/backgrounds/1024/03.jpg) no-repeat fixed 50% -150px transparent;
+	}
+
+	#forth {
+		background: url(../images/backgrounds/1024/04.jpg) no-repeat fixed 50% -150px transparent; 
+	}
+
+	#fifth {
+		background: url(../images/05.png) repeat fixed 50% 0 transparent; 
+	}
+
+	#sixth {
+		background: url(../images/backgrounds/1024/06.jpg) no-repeat fixed 50% -150px transparent; 
+	}
+
+	#first .welcome-message h1 {
+		font-size: 30px;
+	}
+
+	#first .welcome-message p {
+		font-size: 18px;
+		line-height:24px;
+	}
+
+	#first .welcome-message h2, #first .welcome-message p {
+		max-width:625px;
+	}
+
+	.slide-header {
+		padding: 35px 0;
+	}
+
+	.slide-header .slide-details h2 {
+		font-size: 30px;
+	}
+	.slide-header .slide-details p {
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	.slide-number {
+		font-size: 50px;
+	}
+}
