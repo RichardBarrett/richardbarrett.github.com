@@ -200,34 +200,34 @@ p{
 	background-color: #0f010e;
 }
 
-.is320  #first { background: url(../images/backgrounds/320/01.jpg) no-repeat fixed 50% -95px transparent; }
-.is480  #first { background: url(../images/backgrounds/480/01.jpg) no-repeat fixed 50% -95px transparent; }
-.is768  #first { background: url(../images/backgrounds/768/01.jpg) no-repeat fixed 50% -95px transparent; }
-.is1024 #first { background: url(../images/backgrounds/1024/01.jpg) no-repeat fixed 50% -95px transparent; }
+.is300  #first { background: url(../images/backgrounds/320/01.jpg) no-repeat fixed 50% -95px transparent; }
+.is400  #first { background: url(../images/backgrounds/480/01.jpg) no-repeat fixed 50% -95px transparent; }
+.is750  #first { background: url(../images/backgrounds/768/01.jpg) no-repeat fixed 50% -95px transparent; }
+.is1004 #first { background: url(../images/backgrounds/1024/01.jpg) no-repeat fixed 50% -95px transparent; }
 .is1900 #first { background: url(../images/backgrounds/1920/01.jpg) no-repeat fixed 50% -95px transparent; }
 
-.is320  #second { background: url(../images/backgrounds/320/02.jpg) no-repeat fixed 50% -95px transparent; }
-.is480  #second { background: url(../images/backgrounds/480/02.jpg) no-repeat fixed 50% -95px transparent; }
-.is768  #second { background: url(../images/backgrounds/768/02.jpg) no-repeat fixed 50% -95px transparent; }
-.is1024 #second { background: url(../images/backgrounds/1024/02.jpg) no-repeat fixed 50% -95px transparent; }
+.is300  #second { background: url(../images/backgrounds/320/02.jpg) no-repeat fixed 50% -95px transparent; }
+.is400  #second { background: url(../images/backgrounds/480/02.jpg) no-repeat fixed 50% -95px transparent; }
+.is750  #second { background: url(../images/backgrounds/768/02.jpg) no-repeat fixed 50% -95px transparent; }
+.is1000 #second { background: url(../images/backgrounds/1024/02.jpg) no-repeat fixed 50% -95px transparent; }
 .is1900 #second { background: url(../images/backgrounds/1920/02.jpg) no-repeat fixed 50% -95px transparent; }
 
-.is320  #third { background: url(../images/backgrounds/320/03.jpg) no-repeat fixed 50% -95px transparent; }
-.is480  #third { background: url(../images/backgrounds/480/03.jpg) no-repeat fixed 50% -95px transparent; }
-.is768  #third { background: url(../images/backgrounds/768/03.jpg) no-repeat fixed 50% -95px transparent; }
-.is1024 #third { background: url(../images/backgrounds/1024/03.jpg) no-repeat fixed 50% -95px transparent; }
+.is300  #third { background: url(../images/backgrounds/320/03.jpg) no-repeat fixed 50% -95px transparent; }
+.is400  #third { background: url(../images/backgrounds/480/03.jpg) no-repeat fixed 50% -95px transparent; }
+.is750  #third { background: url(../images/backgrounds/768/03.jpg) no-repeat fixed 50% -95px transparent; }
+.is1000 #third { background: url(../images/backgrounds/1024/03.jpg) no-repeat fixed 50% -95px transparent; }
 .is1900 #third { background: url(../images/backgrounds/1920/03.jpg) no-repeat fixed 50% -95px transparent; }
 
-.is320  #forth { background: url(../images/backgrounds/320/04.jpg) no-repeat fixed 50% -95px transparent; }
-.is480  #forth { background: url(../images/backgrounds/480/04.jpg) no-repeat fixed 50% -95px transparent; }
-.is768  #forth { background-: url(../images/backgrounds/768/04.jpg) no-repeat fixed 50% -95px transparent; }
-.is1024 #forth { background: url(../images/backgrounds/1024/04.jpg) no-repeat fixed 50% -95px transparent; }
+.is300  #forth { background: url(../images/backgrounds/320/04.jpg) no-repeat fixed 50% -95px transparent; }
+.is400  #forth { background: url(../images/backgrounds/480/04.jpg) no-repeat fixed 50% -95px transparent; }
+.is750  #forth { background-: url(../images/backgrounds/768/04.jpg) no-repeat fixed 50% -95px transparent; }
+.is1000 #forth { background: url(../images/backgrounds/1024/04.jpg) no-repeat fixed 50% -95px transparent; }
 .is1900 #forth { background: url(../images/backgrounds/1920/04.jpg) no-repeat fixed 50% -95px transparent; }
 
-.is320  #sixth { background: url(../images/backgrounds/320/06.jpg) no-repeat fixed 50% -95px transparent; }
-.is480  #sixth { background: url(../images/backgrounds/480/06.jpg) no-repeat fixed 50% -95px transparent; }
-.is768  #sixth { background: url(../images/backgrounds/768/06.jpg) no-repeat fixed 50% -95px transparent; }
-.is1024 #sixth { background: url(../images/backgrounds/1024/06.jpg) no-repeat fixed 50% -95px transparent; }
+.is300  #sixth { background: url(../images/backgrounds/320/06.jpg) no-repeat fixed 50% -95px transparent; }
+.is400  #sixth { background: url(../images/backgrounds/480/06.jpg) no-repeat fixed 50% -95px transparent; }
+.is750  #sixth { background: url(../images/backgrounds/768/06.jpg) no-repeat fixed 50% -95px transparent; }
+.is1020 #sixth { background: url(../images/backgrounds/1024/06.jpg) no-repeat fixed 50% -95px transparent; }
 .is1900 #sixth { background: url(../images/backgrounds/1920/06.jpg) no-repeat fixed 50% -95px transparent; }
 
 #second .story .slide-header .slide-number {
