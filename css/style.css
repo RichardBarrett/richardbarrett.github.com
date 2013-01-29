@@ -144,7 +144,6 @@ p{
 }
 
 #first {
-	background-color:#060606;
 	height: 950px;
 	margin: 0 auto;
 	padding: 0;
@@ -177,58 +176,28 @@ p{
 }
 
 #first {
-	background-color: #070707 !important;
+	background: url(../images/backgrounds/1920/01.jpg) repeat fixed 50% -95px transparent;
 }
 
-#second .gallery-container {
-	background-color: #ff0084 !important;
+#second {
+	background: url(../images/backgrounds/1920/02.jpg) repeat fixed 50% 0 transparent;
 }
 
-#third .gallery-container {
-	background-color: #db0b00 !important;
+#third {
+	background: url(../images/backgrounds/1920/03.jpg) repeat fixed 50% 0 transparent;
 }
 
-#forth .gallery-container {
-	background-color: #3fabff !important;
+#forth {
+	background: url(../images/backgrounds/1920/04.jpg) repeat fixed 50% 0 transparent; 
 }
 
-#fifth .gallery-container {
-	background-color: #131313 !important;
+#fifth {
+	background: url(../images/05.png) repeat fixed 50% 0 transparent; 
 }
 
-#sixth .gallery-container {
-	background-color: #fac948 !important;
+#sixth {
+	background: url(../images/backgrounds/1920/06.jpg) repeat fixed 50% 0 transparent; 
 }
-
-.is300  #first { background-color: #070707 !important; }
-.is400  #first { background-color: #070707 !important; }
-.is750  #first { background: url(../images/backgrounds/768/01.jpg) no-repeat fixed 50% -95px transparent; }
-.is1004 #first { background: url(../images/backgrounds/1024/01.jpg) no-repeat fixed 50% -95px transparent; }
-.is1900 #first { background: url(../images/backgrounds/1920/01.jpg) no-repeat fixed 50% -95px transparent; }
-
-.is300  #second { background-color: #ff0084 !important; }
-.is400  #second { background-color: #ff0084 !important; }
-.is750  #second { background: url(../images/backgrounds/768/02.jpg) no-repeat fixed 50% -95px transparent; }
-.is1000 #second { background: url(../images/backgrounds/1024/02.jpg) no-repeat fixed 50% -95px transparent; }
-.is1900 #second { background: url(../images/backgrounds/1920/02.jpg) no-repeat fixed 50% -95px transparent; }
-
-.is300  #third { background-color: #db0b00 !important; }
-.is400  #third { background-color: #db0b00 !important; }
-.is750  #third { background: url(../images/backgrounds/768/03.jpg) no-repeat fixed 50% -95px transparent; }
-.is1000 #third { background: url(../images/backgrounds/1024/03.jpg) no-repeat fixed 50% -95px transparent; }
-.is1900 #third { background: url(../images/backgrounds/1920/03.jpg) no-repeat fixed 50% -95px transparent; }
-
-.is300  #forth { background-color: #3fabff !important; }
-.is400  #forth { background-color: #3fabff !important; }
-.is750  #forth { background-: url(../images/backgrounds/768/04.jpg) no-repeat fixed 50% -95px transparent; }
-.is1000 #forth { background: url(../images/backgrounds/1024/04.jpg) no-repeat fixed 50% -95px transparent; }
-.is1900 #forth { background: url(../images/backgrounds/1920/04.jpg) no-repeat fixed 50% -95px transparent; }
-
-.is300  #sixth { background-color: #fac948 !important; }
-.is400  #sixth { background-color: #fac948 !important; }
-.is750  #sixth { background: url(../images/backgrounds/768/06.jpg) no-repeat fixed 50% -95px transparent; }
-.is1020 #sixth { background: url(../images/backgrounds/1024/06.jpg) no-repeat fixed 50% -95px transparent; }
-.is1900 #sixth { background: url(../images/backgrounds/1920/06.jpg) no-repeat fixed 50% -95px transparent; }
 
 #second .story .slide-header .slide-number {
 	color:#ff0084;
@@ -249,12 +218,6 @@ p{
 #sixth .story .slide-header .slide-number {
 	color:#fac948;
 }
-
-#fifth{
-	background: url(../images/fifthBG.png) repeat fixed 50% 0 transparent;
-	background-color: ##111111;
-}
-
 
 .story{
 	margin: 0 auto;
@@ -332,18 +295,14 @@ p{
 }
 
 .gallery-container {
-	height:975px;
 	padding:50px 0;
 	text-align:center;
-	overflow:hidden;
-	display:block;
 }
 
 .gallery {
 	width:650px;
 	height:650px;
 	padding:0;
-	margin:0;
 	margin:0 auto;
 	text-align: center;
 }
