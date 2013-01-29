@@ -520,7 +520,7 @@ div#wrapper > * {
 	background-image: url("../images/contact-twitter-hover.png");
 }
 
-@media screen and (max-width: 780px) {
+/*@media screen and (max-width: 780px) {
 
 	#first .welcome-message {
 		height: 75px;
@@ -666,4 +666,4 @@ div#wrapper > * {
 	.slide-number {
 		font-size: 50px;
 	}
-}
+}*/
