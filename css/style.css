@@ -181,15 +181,15 @@ p{
 }
 
 #second .gallery-container {
-	background-color: #b0a798 !important;
+	background-color: #ff0084 !important;
 }
 
 #third .gallery-container {
-	background-color: #deefdd !important;
+	background-color: #db0b00 !important;
 }
 
 #forth .gallery-container {
-	background-color: #d5f2de !important;
+	background-color: #3fabff !important;
 }
 
 #fifth .gallery-container {
@@ -197,7 +197,7 @@ p{
 }
 
 #sixth .gallery-container {
-	background-color: #0f010e !important;
+	background-color: #fac948 !important;
 }
 
 .is300  #first { background-color: #070707 !important; }
@@ -206,26 +206,26 @@ p{
 .is1004 #first { background: url(../images/backgrounds/1024/01.jpg) no-repeat fixed 50% -95px transparent; }
 .is1900 #first { background: url(../images/backgrounds/1920/01.jpg) no-repeat fixed 50% -95px transparent; }
 
-.is300  #second { background-color: #b0a798 !important; }
-.is400  #second { background-color: #b0a798 !important; }
+.is300  #second { background-color: #ff0084 !important; }
+.is400  #second { background-color: #ff0084 !important; }
 .is750  #second { background: url(../images/backgrounds/768/02.jpg) no-repeat fixed 50% -95px transparent; }
 .is1000 #second { background: url(../images/backgrounds/1024/02.jpg) no-repeat fixed 50% -95px transparent; }
 .is1900 #second { background: url(../images/backgrounds/1920/02.jpg) no-repeat fixed 50% -95px transparent; }
 
-.is300  #third { background-color: #deefdd !important; }
-.is400  #third { background-color: #deefdd !important; }
+.is300  #third { background-color: #db0b00 !important; }
+.is400  #third { background-color: #db0b00 !important; }
 .is750  #third { background: url(../images/backgrounds/768/03.jpg) no-repeat fixed 50% -95px transparent; }
 .is1000 #third { background: url(../images/backgrounds/1024/03.jpg) no-repeat fixed 50% -95px transparent; }
 .is1900 #third { background: url(../images/backgrounds/1920/03.jpg) no-repeat fixed 50% -95px transparent; }
 
-.is300  #forth { background-color: #d5f2de !important; }
-.is400  #forth { background-color: #d5f2de !important; }
+.is300  #forth { background-color: #3fabff !important; }
+.is400  #forth { background-color: #3fabff !important; }
 .is750  #forth { background-: url(../images/backgrounds/768/04.jpg) no-repeat fixed 50% -95px transparent; }
 .is1000 #forth { background: url(../images/backgrounds/1024/04.jpg) no-repeat fixed 50% -95px transparent; }
 .is1900 #forth { background: url(../images/backgrounds/1920/04.jpg) no-repeat fixed 50% -95px transparent; }
 
-.is300  #sixth { background-color: #0f010e !important; }
-.is400  #sixth { background-color: #0f010e !important; }
+.is300  #sixth { background-color: #fac948 !important; }
+.is400  #sixth { background-color: #fac948 !important; }
 .is750  #sixth { background: url(../images/backgrounds/768/06.jpg) no-repeat fixed 50% -95px transparent; }
 .is1020 #sixth { background: url(../images/backgrounds/1024/06.jpg) no-repeat fixed 50% -95px transparent; }
 .is1900 #sixth { background: url(../images/backgrounds/1920/06.jpg) no-repeat fixed 50% -95px transparent; }
