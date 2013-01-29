@@ -520,16 +520,16 @@ div#wrapper > * {
 	background-image: url("../images/contact-twitter-hover.png");
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 780px) {
 
 	#first .welcome-message {
 		height: 75px;
 	}
 
 	#first {
-	height: 450px;
-	margin: 0 auto;
-	padding: 0;
+		height: 450px;
+		margin: 0 auto;
+		padding: 0;
 	}
 
 	#second, #third, #forth, #fifth, #sixth{
@@ -583,6 +583,7 @@ div#wrapper > * {
 	.slide-header .slide-details h2 {
 		font-size: 24px;
 	}
+
 	.slide-header .slide-details p {
 		font-size: 14px;
 		line-height: 20px;
@@ -600,9 +601,9 @@ div#wrapper > * {
 	}
 
 	#first {
-	height: 650px;
-	margin: 0 auto;
-	padding: 0;
+		height: 650px;
+		margin: 0 auto;
+		padding: 0;
 	}
 
 	#second, #third, #forth, #fifth, #sixth{
@@ -656,6 +657,7 @@ div#wrapper > * {
 	.slide-header .slide-details h2 {
 		font-size: 30px;
 	}
+	
 	.slide-header .slide-details p {
 		font-size: 18px;
 		line-height: 24px;
