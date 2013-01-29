@@ -176,21 +176,35 @@ p{
 	overflow: hidden;
 }
 
+.is320  #intro { background: url(images/backgrounds/320/01.jpg) repeat fixed 50% -95px transparent; }
+.is480  #intro { background: url(images/backgrounds/480/01.jpg) repeat fixed 50% -95px transparent; }
+.is768  #intro { background: url(images/backgrounds/768/01.jpg) repeat fixed 50% -95px transparent; }
+.is1024 #intro { background: url(images/backgrounds/1024/01.jpg) repeat fixed 50% -95px transparent; }
+.is1920 #intro { background: url(images/backgrounds/1920/01.jpg) repeat fixed 50% -95px transparent; }
 
-#intro { background-image: url(images/backgrounds/1920/01.jpg) repeat fixed 50% -95px transparent; }
+.is320  #second { background: url(images/backgrounds/320/02.jpg) repeat fixed 50% -95px transparent; }
+.is480  #second { background: url(images/backgrounds/480/02.jpg) repeat fixed 50% -95px transparent; }
+.is768  #second { background: url(images/backgrounds/768/02.jpg) repeat fixed 50% -95px transparent; }
+.is1024 #second { background: url(images/backgrounds/1024/02.jpg) repeat fixed 50% -95px transparent; }
+.is1920 #second { background: url(images/backgrounds/1920/02.jpg) repeat fixed 50% -95px transparent; }
 
-#second { background-image: url(images/backgrounds/1920/02.jpg) repeat fixed 50% -95px transparent; }
+.is320  #third { background: url(images/backgrounds/320/03.jpg) repeat fixed 50% -95px transparent; }
+.is480  #third { background: url(images/backgrounds/480/03.jpg) repeat fixed 50% -95px transparent; }
+.is768  #third { background: url(images/backgrounds/768/03.jpg) repeat fixed 50% -95px transparent; }
+.is1024 #third { background: url(images/backgrounds/1024/03.jpg) repeat fixed 50% -95px transparent; }
+.is1920 #third { background: url(images/backgrounds/1920/03.jpg) repeat fixed 50% -95px transparent; }
 
-#third { background-image: url(images/backgrounds/1920/03.jpg) repeat fixed 50% -95px transparent; }
+.is320  #forth { background: url(images/backgrounds/320/04.jpg) repeat fixed 50% -95px transparent; }
+.is480  #forth { background: url(images/backgrounds/480/04.jpg) repeat fixed 50% -95px transparent; }
+.is768  #forth { background-: url(images/backgrounds/768/04.jpg) repeat fixed 50% -95px transparent; }
+.is1024 #forth { background: url(images/backgrounds/1024/04.jpg) repeat fixed 50% -95px transparent; }
+.is1920 #forth { background: url(images/backgrounds/1920/04.jpg) repeat fixed 50% -95px transparent; }
 
-#forth { background-image: url(images/backgrounds/1920/04.jpg) repeat fixed 50% -95px transparent; }
-
-#fifth {
-	background: url(../images/fifthBG.png) repeat fixed 50% 0 transparent;
-	background-color: ##111111;
-}
-
-#sixth { background-image: url(images/backgrounds/1920/06.jpg) repeat fixed 50% -95px transparent; }
+.is320  #sixth { background: url(images/backgrounds/320/06.jpg) repeat fixed 50% -95px transparent; }
+.is480  #sixth { background: url(images/backgrounds/480/06.jpg) repeat fixed 50% -95px transparent; }
+.is768  #sixth { background: url(images/backgrounds/768/06.jpg) repeat fixed 50% -95px transparent; }
+.is1024 #sixth { background: url(images/backgrounds/1024/06.jpg) repeat fixed 50% -95px transparent; }
+.is1920 #sixth { background: url(images/backgrounds/1920/06.jpg) repeat fixed 50% -95px transparent; }
 
 #second .story .slide-header .slide-number {
 	color:#ff0084;
@@ -202,6 +216,11 @@ p{
 
 #forth .story .slide-header .slide-number {
 	color:#3fabff;
+}
+
+#fifth{
+	background: url(../images/fifthBG.png) repeat fixed 50% 0 transparent;
+	background-color: ##111111;
 }
 
 #fifth .story .slide-header .slide-number {
