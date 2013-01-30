@@ -169,9 +169,9 @@ p{
 }
 
 #second, #third, #forth, #fifth, #sixth{
-	height: 1050px;
+	height: 650px;
 	margin: 0 auto;
-	padding: 0;
+	padding: 50px 0;
 	overflow: hidden;
 }
 
@@ -299,7 +299,7 @@ p{
 	text-align:center;
 }
 
-.gallery {
+.gallery-wrapper {
 	width:650px;
 	height:650px;
 	padding:0;
@@ -313,7 +313,7 @@ p{
 	position: relative;
 }
 
-.gallery img {
+.gallery-wrapper img {
 	vertical-align: middle;
 	position: relative;
 	-webkit-border-radius: 20px; 
@@ -321,7 +321,7 @@ p{
 	border-radius: 20px; 
 }
 
-.gallery ul.gallery-label {
+.gallery-wrapper ul.gallery-label {
 	font-family: 'Chunkfive';
 	font-size:20px;
 	color:#121212;
@@ -344,7 +344,7 @@ p{
 	box-shadow: 0 0 5px #121212;
 }
 
-.gallery ul.gallery-label li {
+.gallery-wrapper ul.gallery-label li {
 	background-color: #fac948;	
 	display: inline-block;	
 	padding: 0;
@@ -360,6 +360,7 @@ p{
 	position:fixed;
 	z-index:99;
 }
+
 #html5Loader .fallback {
 	top:50%;
 	position:absolute;
@@ -374,13 +375,11 @@ div#wrapper > * {
 	width:400px;
 }
 
-
 .slide-header a.top {
 	font-family: 'ChunkFiveRegular';
 	font-size: 30px;
 	font-weight: normal;	
 	float:right;
-	z-index: 100;
 	margin-right:100px;
 	vertical-align: middle;
 	color:#ccc;
@@ -486,7 +485,7 @@ div#wrapper > * {
 	font-family: 'Vezus-Light';
 	font-size: 32px;
 	width:100%;
-	padding: 150px 0 0;
+	padding: 100px 0 0;
 	text-align:	center;	
 }
 
