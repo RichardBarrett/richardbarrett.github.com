@@ -1,0 +1,35 @@
+.overlay {
+	position: absolute;
+	cursor: pointer;
+	-webkit-border-radius: 20px; 
+	-moz-border-radius: 20px; 
+	border-radius: 20px; 
+}
+.overlay-background {
+	background: #000;
+	opacity: 0.85;
+	border: 10px solid #121212;
+	border-radius: 20px;
+	position: absolute;
+}
+.overlay-label {
+	color: #fff;
+	position: absolute;
+	left: 50%;
+	margin-left: -75px;
+	bottom: 150px;
+	width: 170px;
+	text-align: center;
+	font-family: 'Vezus-Light';
+	font-size: 18px;
+	line-height: 34px;
+}
+.overlay-find {
+	position: absolute;
+	background-image: url(../images/view-gallery.png);
+	width: 90px;
+	left: 50%;
+	margin-left: -35px;
+	height: 90px;
+	top: 150px;
+}

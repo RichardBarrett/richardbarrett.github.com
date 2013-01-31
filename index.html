@@ -3,41 +3,34 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Richard Barrett - User Experience/Web Designer</title>
-	<meta name="description" content="Hi There! I’m Richard Barrett, a user experience/web designer with a passion for creating exciting and engaging online experiences." />	
-
+	<meta name="description" content="Hi There! I’m Richard Barrett, a user experience/web designer with a passion for creating exciting and engaging online experiences." />
 	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
 
 	<script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
 
 	<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>	
+
+	<!-- Parallax scrolling Javascript plugins -->
 	<script type="text/javascript" src="js/jquery.scrollTo-1.4.3.1.min.js"></script>
 	<script type="text/javascript" src="js/jquery.parallax-1.1.js"></script>
 	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="js/jquery.scrollorama.js"></script>
-
 	<script type="text/javascript" src="js/nicescroll.js"></script>
 
+	<!-- Miscellaneous Javascript plugins -->
 	<script type="text/javascript" src="js/modernizr.js"></script>
-	<!-- <script src="js/jQuery.html5Loader.circular.js"></script>
-	<script src="js/jQuery.html5Loader.js"></script> -->
-
-	<link href="css/reset.css" rel="stylesheet" type="text/css" />
-	<link href="css/style.css" rel="stylesheet" type="text/css" />
-	<link rel="icon" type="image/ico" href="favicon.ico" />
-	
-	<link href="css/photoswipe.css" rel="stylesheet" type="text/css" />
+	<script src="js/opentip-jquery.js"></script>
 	<script type="text/javascript" src="js/klass.min.js"></script>
 	<script type="text/javascript" src="js/code.photoswipe-3.0.5.min.js"></script>	
 
-	<script type="text/javascript">		
-		$(function() {
-			var options = {};
-			
-			$('#WDGallery a').photoSwipe(options);
-			$('#IIGallery a').photoSwipe(options);
-			$('#PGallery a').photoSwipe(options);
-		});	
-	</script>	
+	<!-- Style sheets -->
+	<link href="css/photoswipe.css" rel="stylesheet" type="text/css" />
+	<link href="css/reset.css" rel="stylesheet" type="text/css" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/opentip.css" rel="stylesheet" type="text/css" />	
+
+	<!-- site favicon -->
+	<link rel="icon" type="image/ico" href="favicon.ico" />
 
 	<!-- Make IE8 and below responsive by adding CSS3 MediaQuery support -->
 	<!--[if lt IE 9]>
@@ -47,95 +40,31 @@
 
 	<script type="text/javascript">
 		$(document).ready(function(){
+			$(function() {
+				var options = {};					
+					$('#WDGallery a').photoSwipe(options);
+					$('#IIGallery a').photoSwipe(options);
+					$('#PGallery a').photoSwipe(options);
+			});	
 
-			// var whenReady = function () {
-				$("html").niceScroll();
+			$("html").niceScroll();
+			RepositionNav();
+			$(window).resize(function(){
 				RepositionNav();
-				$(window).resize(function(){
-					RepositionNav();
-				});	
+			});	
 
-				$('#first').parallax("50%", 0, 0.1, true);
-				$('#second').parallax("50%", 1500, 0.4, true);
-				$('#third').parallax("50%", 2500, 0.4, true);
-				$('#forth').parallax("50%", 3500, 0.4, true);
-				$('#fifth').parallax("50%", 4500, 0.4, true);
-				$('#sixth').parallax("50%", 5600, 0.4, true);
-
-
-
-				var findImage = $('<div>').addClass('overlay-find');
-				var viewLabel = $('<div>').text('VIEW GALLERY').addClass('overlay-label');
-				var overlayBackground = $('<div>').addClass('overlay-background');
-				var overlay = $('<div>').addClass('overlay').html('').hide();
-				overlay.append(overlayBackground);
-
-				overlay.append(findImage);
-				overlay.append(viewLabel);
-				$('body').append(overlay);
-
-				var currentImage;
-				$('.gallery-link').on('mouseenter', function (ev) {
-					var image = $(ev.currentTarget);
-					overlay.css({
-						top: image.offset().top - 10,
-						left: image.offset().left - 10,
-						width: image.width(),
-						height: image.height()
-					});
-					overlayBackground.css({
-						width: image.width(),
-						height: image.height()
-					});
-					overlay.fadeIn(200);
-					overlayBackground.fadeIn(200);
-					viewLabel.animate({
-						bottom: '260px'
-					}, 200);
-
-					findImage.animate({
-						top: '260px'
-					}, 200);
-					image.animate({
-						'background-size': '120%'
-					}, 200);
-					currentImage = image;
-				});
-				$('.overlay').on('mouseleave', function (ev) {
-					var image = currentImage;
-					overlay.fadeOut(200);
-					viewLabel.animate({
-						bottom: '150px'
-					}, 200);
-
-					findImage.animate({
-						top: '150px'
-					}, 200);
-					image.animate({
-						'background-size': '100%'
-					}, 200);
-				});
-				$('.overlay').on('click', function (ev) {
-					currentImage.click();
-				});
-
-
-			// };
-
-			// var loaderAnimation = $("#html5Loader").LoaderAnimation();
-			// $.html5Loader({
-			// 	getFilesToLoadJSON:'js/files.json',
-			// 	onUpdate: loaderAnimation.update,
-			// 	onComplete: whenReady
-			// });	
+			$('#first').parallax("50%", 0, 0.1, true);
+			$('#second').parallax("50%", 1500, 0.4, true);
+			$('#third').parallax("50%", 2500, 0.4, true);
+			$('#forth').parallax("50%", 3500, 0.4, true);
+			$('#fifth').parallax("50%", 4500, 0.4, true);
+			$('#sixth').parallax("50%", 5600, 0.4, true);			
 		})
 	</script>
 
 </head>
 
 <body>
-	<!--<div id="html5Loader"></div>-->
-
 	<div id="first" class="slide">
 		<div class="story">
 			<div class="main-menu">
@@ -148,17 +77,17 @@
 					<li><a href="#fifth">Skills</a></li>
 					<li><a href="#sixth">Contact me</a></li>
 				</ul>
-			</div>
-			<div class="welcome-message">				
-				<h1>Hi there! I’m Richard Barrett,</h1>
-				<p>a user experience/web designer with a passion for creating exciting and engaging online experiences.</p>
-			</div>
+			</div>			
 		</div> <!--.story-->
 	</div> <!--#first-->
 	
 	<div class="slide">
 		<div class="story">
-			<div class="slide-header">		
+			<div class="welcome-message">				
+				<h1>Hi there! I’m Richard Barrett,</h1>
+				<p>a user experience/web designer with a passion for creating exciting and engaging online experiences.</p>
+			</div>
+			<div class="second slide-header">		
 				<a href="#first" class="top">TOP</a>			
 				<div class="slide-number">01</div>
 				<div class="slide-details">
@@ -187,7 +116,7 @@
 	
 	<div class="slide">
 		<div class="story">
-			<div class="slide-header">  	
+			<div class="third slide-header">  	
 				<a href="#first" class="top">TOP</a>	
 				<div class="slide-number">02</div>
 				<div class="slide-details">					
@@ -215,7 +144,7 @@
 	
 	<div class="slide">
 		<div class="story">
-			<div class="slide-header">	
+			<div class="forth slide-header">	
 				<a href="#first" class="top">TOP</a>
 				<div class="slide-number">03</div>
 				<div class="slide-details">					
@@ -243,7 +172,7 @@
 
 	<div class="slide">
 		<div class="story">
-			<div class="slide-header">		
+			<div class="fifth slide-header">		
 				<a href="#first" class="top">TOP</a>				   		
 				<div class="slide-number">04</div>
 				<div class="slide-details">
@@ -261,7 +190,7 @@
 
 	<div class="slide">
 		<div class="story">
-			<div class="slide-header">	
+			<div class="sixth slide-header">	
 			<a href="#first" class="top">TOP</a>					   		
 				<div class="slide-number">05</div>
 				<div class="slide-details">
