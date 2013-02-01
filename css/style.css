@@ -449,21 +449,8 @@ p{
 	background-image: url("../images/contact-twitter-hover.png");
 }
 
-/*@media screen and (max-width: 640px) {
+@media screen and (max-width: 640px) {
 
-
-	#first {
-		height: 450px;
-		margin: 0 auto;
-		padding: 0;
-	}
-
-	#second, #third, #forth, #fifth, #sixth{
-		height: 1050px;
-		margin: 0 auto;
-		padding: 0;
-		overflow: hidden;
-	}
 
 	#first {
 		background: url(../images/backgrounds/768/01.jpg) no-repeat fixed 50% -40px transparent;
@@ -522,23 +509,6 @@ p{
 
 @media screen and (max-width: 1024px) {
 
-	#first .welcome-message {
-		height: 75px;
-	}
-
-	#first {
-		height: 650px;
-		margin: 0 auto;
-		padding: 0;
-	}
-
-	#second, #third, #forth, #fifth, #sixth{
-		height: 1050px;
-		margin: 0 auto;
-		padding: 0;
-		overflow: hidden;
-	}
-
 	#first {
 		background: url(../images/backgrounds/1024/01.jpg) no-repeat fixed 50% -40px transparent;
 	}
@@ -572,8 +542,8 @@ p{
 		line-height:24px;
 	}
 
-	#first .welcome-message h2, #first .welcome-message p {
-		max-width:625px;
+	.slide-number {
+		font-size: 50px;
 	}
 
 	.slide-header {
@@ -589,7 +559,5 @@ p{
 		line-height: 24px;
 	}
 
-	.slide-number {
-		font-size: 50px;
-	}
-}*/
+
+}
