@@ -509,21 +509,21 @@ p{
 	}
 }
 
-@media only screen and (max-width: 480px ) and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
 	#first {
-		background: url(../images/backgrounds/768/01.jpg) no-repeat fixed 50% -40px transparent;
+		background: url(../images/backgrounds/480/01.jpg) no-repeat fixed 50% -40px transparent;
 	}
 
 	#second {
-		background: url(../images/backgrounds/768/02.jpg) no-repeat fixed 50% -150px transparent;
+		background: url(../images/backgrounds/480/02.jpg) no-repeat fixed 50% -150px transparent;
 	}
 
 	#third {
-		background: url(../images/backgrounds/768/03.jpg) no-repeat fixed 50% -150px transparent;
+		background: url(../images/backgrounds/480/03.jpg) no-repeat fixed 50% -150px transparent;
 	}
 
 	#forth {
-		background: url(../images/backgrounds/768/04.jpg) no-repeat fixed 50% -150px transparent; 
+		background: url(../images/backgrounds/480/04.jpg) no-repeat fixed 50% -150px transparent; 
 	}
 
 	#fifth {
@@ -531,7 +531,7 @@ p{
 	}
 
 	#sixth {
-		background: url(../images/backgrounds/768/06.jpg) no-repeat fixed 50% -150px transparent; 
+		background: url(../images/backgrounds/480/06.jpg) no-repeat fixed 50% -150px transparent; 
 	}
 
 	#first .welcome-message h1 {
