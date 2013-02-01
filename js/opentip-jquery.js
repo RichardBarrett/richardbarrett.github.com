@@ -24,13 +24,13 @@
     <meta content="authenticity_token" name="csrf-param" />
 <meta content="G+iKGvikuwjnTaPh7I5s788LSHp4zhXbfkhV4TMGqIY=" name="csrf-token" />
 
-    <link href="https://a248.e.akamai.net/assets.github.com/assets/github-38b176043cca4486e745994b8bca0ff462aaccb0.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="https://a248.e.akamai.net/assets.github.com/assets/github2-3dfade455751c308f4b207b1a29a6cb39093d144.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="https://a248.e.akamai.net/assets.github.com/assets/github-ffb8984c1babeebaf9d91df108adc49a39069e87.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="https://a248.e.akamai.net/assets.github.com/assets/github2-b3c5d44b0875b82e4470d01d4974d49e981a6a03.css" media="screen" rel="stylesheet" type="text/css" />
     
 
 
         <script src="https://a248.e.akamai.net/assets.github.com/assets/frameworks-d61440caec5d2210a2242b084cdb2bc6597e00b7.js" type="text/javascript"></script>
-      <script src="https://a248.e.akamai.net/assets.github.com/assets/github-18d7eca5c5624e94f7a88f2049cdc702fbdcc8ff.js" type="text/javascript"></script>
+      <script src="https://a248.e.akamai.net/assets.github.com/assets/github-089ad85d7bd16439d94518cf478e48592191e07d.js" type="text/javascript"></script>
       
 
         <link rel='permalink' href='/enyo/opentip/blob/bbc619385725d51058f8001fb06f485e80ab2e53/downloads/opentip-jquery.js'>
@@ -51,7 +51,7 @@
   </head>
 
 
-  <body class="logged_in page-blob windows vis-public env-production ">
+  <body class="logged_in page-blob windows vis-public env-production  ">
     <div id="wrapper">
 
       
@@ -149,10 +149,11 @@
               
 
 
-                  <ul class="pagehead-actions">
+<ul class="pagehead-actions">
 
-          <li class="subscription">
-            <form accept-charset="UTF-8" action="/notifications/subscribe" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="G+iKGvikuwjnTaPh7I5s788LSHp4zhXbfkhV4TMGqIY=" /></div>  <input id="repository_id" name="repository_id" type="hidden" value="322350" />
+
+    <li class="subscription">
+      <form accept-charset="UTF-8" action="/notifications/subscribe" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="G+iKGvikuwjnTaPh7I5s788LSHp4zhXbfkhV4TMGqIY=" /></div>  <input id="repository_id" name="repository_id" type="hidden" value="322350" />
 
     <div class="select-menu js-menu-container js-select-menu">
       <span class="minibutton select-menu-button js-menu-target">
@@ -217,22 +218,20 @@
     </div> <!-- /.select-menu -->
 
 </form>
-          </li>
+    </li>
 
-          <li class="js-toggler-container js-social-container starring-container ">
-            <a href="/enyo/opentip/unstar" class="minibutton js-toggler-target starred" data-remote="true" data-method="post" rel="nofollow">
-              <span class="mini-icon mini-icon-star"></span>Unstar
-            </a><a href="/enyo/opentip/star" class="minibutton js-toggler-target unstarred" data-remote="true" data-method="post" rel="nofollow">
-              <span class="mini-icon mini-icon-star"></span>Star
-            </a><a class="social-count js-social-count" href="/enyo/opentip/stargazers">167</a>
-          </li>
+    <li class="js-toggler-container js-social-container starring-container ">
+      <a href="/enyo/opentip/unstar" class="minibutton js-toggler-target star-button starred" data-remote="true" data-method="post" rel="nofollow"><span class="mini-icon mini-icon-remove-star"></span>
+      </a><a href="/enyo/opentip/star" class="minibutton js-toggler-target star-button unstarred" data-remote="true" data-method="post" rel="nofollow">
+        <span class="mini-icon mini-icon-star"></span></a><a class="social-count js-social-count" href="/enyo/opentip/stargazers">167</a>
+    </li>
 
-              <li>
-                <a href="/enyo/opentip/fork_select" class="minibutton js-toggler-target lighter" rel="facebox nofollow"><span class="mini-icon mini-icon-fork"></span>Fork</a><a href="/enyo/opentip/network" class="social-count">41</a>
-              </li>
+        <li>
+          <a href="/enyo/opentip/fork_select" class="minibutton js-toggler-target fork-button lighter" rel="facebox nofollow"><span class="mini-icon mini-icon-branch-create"></span></a><a href="/enyo/opentip/network" class="social-count">42</a>
+        </li>
 
 
-    </ul>
+</ul>
 
               <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
                 <span class="repo-label"><span>public</span></span>
@@ -505,15 +504,18 @@
 <!-- blob contrib key: blob_contributors:v21:9496c4ccdf9a3965734fdcc870323a11 -->
 <!-- blob contrib frag key: views10/v8/blob_contributors:v21:9496c4ccdf9a3965734fdcc870323a11 -->
 
+
 <div id="slider">
     <div class="frame-meta">
 
       <p title="This is a placeholder element" class="js-history-link-replace hidden"></p>
-      <div class="breadcrumb">
-        <span class='bold'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/enyo/opentip" class="js-slide-to" data-direction="back" itemscope="url"><span itemprop="title">opentip</span></a></span></span> / <span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/enyo/opentip/tree/master/downloads" class="js-slide-to" data-direction="back" itemscope="url"><span itemprop="title">downloads</span></a></span> / <strong class="final-path">opentip-jquery.js</strong> <span class="js-zeroclipboard zeroclipboard-button" data-clipboard-text="downloads/opentip-jquery.js" data-copied-hint="copied!" title="copy to clipboard"><span class="mini-icon mini-icon-clipboard"></span></span>
-      </div>
+
+        <div class="breadcrumb">
+          <span class='bold'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/enyo/opentip" class="js-slide-to" data-direction="back" itemscope="url"><span itemprop="title">opentip</span></a></span></span> / <span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/enyo/opentip/tree/master/downloads" class="js-slide-to" data-direction="back" itemscope="url"><span itemprop="title">downloads</span></a></span> / <strong class="final-path">opentip-jquery.js</strong> <span class="js-zeroclipboard zeroclipboard-button" data-clipboard-text="downloads/opentip-jquery.js" data-copied-hint="copied!" title="copy to clipboard"><span class="mini-icon mini-icon-clipboard"></span></span>
+        </div>
 
       <a href="/enyo/opentip/find/master" class="js-slide-to" data-hotkey="t" style="display:none">Show File Finder</a>
+
 
         
   <div class="commit file-history-tease">
@@ -605,7 +607,7 @@
 </div>
 
 <div id="js-frame-loading-template" class="frame frame-loading large-loading-area" style="display:none;">
-  <img class="js-frame-loading-spinner" src="https://a248.e.akamai.net/assets.github.com/images/spinners/octocat-spinner-128.gif?1347543525" height="64" width="64">
+  <img class="js-frame-loading-spinner" src="https://a248.e.akamai.net/assets.github.com/images/spinners/octocat-spinner-128.gif?1359524229" height="64" width="64">
 </div>
 
 
@@ -666,7 +668,7 @@
       <hr class="footer-divider">
 
 
-    <p class="right">&copy; 2013 <span title="0.07391s from fe17.rs.github.com">GitHub</span> Inc. All rights reserved.</p>
+    <p class="right">&copy; 2013 <span title="0.07943s from fe15.rs.github.com">GitHub</span> Inc. All rights reserved.</p>
     <a class="left" href="https://github.com/">
       <span class="mega-icon mega-icon-invertocat"></span>
     </a>
@@ -713,7 +715,7 @@
 
     
     
-    <span id='server_response_time' data-time='0.07443' data-host='fe17'></span>
+    <span id='server_response_time' data-time='0.07990' data-host='fe15'></span>
     
   </body>
 </html>

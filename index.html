@@ -16,18 +16,18 @@
 	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="js/jquery.scrollorama.js"></script>
 	<script type="text/javascript" src="js/nicescroll.js"></script>
+	<script type="text/javascript" src="js/jquery.scrolldeck.js"></script>
+	<script type="text/javascript" src="js/jquery.color.js"></script>
 
 	<!-- Miscellaneous Javascript plugins -->
-	<script type="text/javascript" src="js/modernizr.js"></script>
-	<script src="js/opentip-jquery.js"></script>
+	<script type="text/javascript" src="js/modernizr.js"></script>	
 	<script type="text/javascript" src="js/klass.min.js"></script>
-	<script type="text/javascript" src="js/code.photoswipe-3.0.5.min.js"></script>	
+	<script type="text/javascript" src="js/code.photoswipe-3.0.5.min.js"></script>
 
 	<!-- Style sheets -->
 	<link href="css/photoswipe.css" rel="stylesheet" type="text/css" />
 	<link href="css/reset.css" rel="stylesheet" type="text/css" />
-	<link href="css/style.css" rel="stylesheet" type="text/css" />
-	<link href="css/opentip.css" rel="stylesheet" type="text/css" />	
+	<link href="css/style.css" rel="stylesheet" type="text/css" />	
 
 	<!-- site favicon -->
 	<link rel="icon" type="image/ico" href="favicon.ico" />
@@ -40,6 +40,7 @@
 
 	<script type="text/javascript">
 		$(document).ready(function(){
+
 			$(function() {
 				var options = {};					
 					$('#WDGallery a').photoSwipe(options);
@@ -58,8 +59,25 @@
 			$('#third').parallax("50%", 2500, 0.4, true);
 			$('#forth').parallax("50%", 3500, 0.4, true);
 			$('#fifth').parallax("50%", 4500, 0.4, true);
-			$('#sixth').parallax("50%", 5600, 0.4, true);			
-		})
+			$('#sixth').parallax("50%", 5600, 0.4, true);	
+
+			$('.gallery-link').on('mouseenter', function (ev) {
+				var image = $(ev.currentTarget);	
+				image.animate({
+					'background-size': '120%'
+				}, 200);
+
+			});
+
+			$('.gallery-link').on('mouseleave', function (ev) {
+				var image = $(ev.currentTarget);
+				image.animate({
+					'background-size': '100%'
+				}, 200);
+
+			});
+		});
+
 	</script>
 
 </head>
@@ -92,11 +110,12 @@
 				<div class="slide-number">01</div>
 				<div class="slide-details">
 					<h2 id="slide-heading">WEB DESIGN</h1>							
-					<p id="slide-description">I've been involved in web design since the mid-90s. My experience has made me versatile and helps me think outside the box. Check out <a href="http://apiengine.io">API Engine</a>, my most recent web design project, to see my creativity in action!</p>					
+					<p id="slide-description">I've been involved in web design since the mid-90s. My experience has made me versatile and helps me think outside the box. Check out <a href="http://apiengine.io" title="Great apps start with great APIs">API Engine</a>, my most recent web design project, to see my creativity in action. Alternatively, why not check out my <a href="http://paper.li/PixelPotion/1359381685#" title="Pixel Potion - Daily Design News">design paper</a> for daily design news from across the web.</p>					
 				</div>
 			</div>
 
 			<div id="second" class='gallery-container'>
+				
 				<div id="WDGallery" class="gallery">
 					<div class="gallery-wrapper">
 						<ul class="gallery-label">
@@ -107,10 +126,26 @@
 						</a>
 						<a href="images/web-design/02.jpg"></a>
 						<a href="images/web-design/03.jpg"></a>
-						<a href="images/web-design/04.jpg"></a>	
+						<a href="images/web-design/04.jpg"></a>
+						<a href="images/web-design/05.jpg"></a>
+						<a href="images/web-design/06.jpg"></a>
+						<a href="images/web-design/07.jpg"></a>
+						<a href="images/web-design/08.jpg"></a>
+						<a href="images/web-design/09.jpg"></a>
+						<a href="images/web-design/10.jpg"></a>
+						<a href="images/web-design/11.jpg"></a>
+						<a href="images/web-design/12.jpg"></a>
+						<a href="images/web-design/13.jpg"></a>
+						<a href="images/web-design/14.jpg"></a>
+						<a href="images/web-design/15.jpg"></a>
+						<a href="images/web-design/16.jpg"></a>
+						<a href="images/web-design/17.jpg"></a>
+						<a href="images/web-design/18.jpg"></a>
+						<a href="images/web-design/19.jpg"></a>
 					</div>					
 				</div>
 			</div>
+			
 		</div> <!--.story-->
 	</div> <!--#second-->
 	
@@ -136,6 +171,14 @@
 						<a href="images/icons-and-illustration/02.jpg"></a>
 						<a href="images/icons-and-illustration/03.jpg"></a>
 						<a href="images/icons-and-illustration/04.jpg"></a>
+						<a href="images/icons-and-illustration/05.jpg"></a>
+						<a href="images/icons-and-illustration/06.jpg"></a>
+						<a href="images/icons-and-illustration/07.jpg"></a>
+						<a href="images/icons-and-illustration/08.jpg"></a>
+						<a href="images/icons-and-illustration/09.jpg"></a>
+						<a href="images/icons-and-illustration/10.jpg"></a>
+						<a href="images/icons-and-illustration/11.jpg"></a>
+						<a href="images/icons-and-illustration/12.jpg"></a>
 					</div>
 				</div>
 			</div>
@@ -164,6 +207,42 @@
 						<a href="images/photography/02.jpg"></a>
 						<a href="images/photography/03.jpg"></a>
 						<a href="images/photography/04.jpg"></a>
+						<a href="images/photography/05.jpg"></a>
+						<a href="images/photography/06.jpg"></a>
+						<a href="images/photography/07.jpg"></a>
+						<a href="images/photography/08.jpg"></a>
+						<a href="images/photography/09.jpg"></a>
+						<a href="images/photography/10.jpg"></a>
+						<a href="images/photography/11.jpg"></a>
+						<a href="images/photography/12.jpg"></a>
+						<a href="images/photography/13.jpg"></a>
+						<a href="images/photography/14.jpg"></a>
+						<a href="images/photography/15.jpg"></a>
+						<a href="images/photography/16.jpg"></a>
+						<a href="images/photography/17.jpg"></a>
+						<a href="images/photography/18.jpg"></a>
+						<a href="images/photography/19.jpg"></a>
+						<a href="images/photography/20.jpg"></a>
+						<a href="images/photography/21.jpg"></a>
+						<a href="images/photography/22.jpg"></a>
+						<a href="images/photography/23.jpg"></a>
+						<a href="images/photography/24.jpg"></a>
+						<a href="images/photography/25.jpg"></a>
+						<a href="images/photography/26.jpg"></a>
+						<a href="images/photography/27.jpg"></a>
+						<a href="images/photography/28.jpg"></a>
+						<a href="images/photography/29.jpg"></a>
+						<a href="images/photography/30.jpg"></a>
+						<a href="images/photography/31.jpg"></a>
+						<a href="images/photography/32.jpg"></a>
+						<a href="images/photography/33.jpg"></a>
+						<a href="images/photography/34.jpg"></a>
+						<a href="images/photography/35.jpg"></a>
+						<a href="images/photography/36.jpg"></a>
+						<a href="images/photography/37.jpg"></a>
+						<a href="images/photography/38.jpg"></a>
+						<a href="images/photography/39.jpg"></a>
+						<a href="images/photography/40.jpg"></a>						
 					</div>	
 				</div>
 			</div>		  	
@@ -195,7 +274,7 @@
 				<div class="slide-number">05</div>
 				<div class="slide-details">
 					<h2>CONTACT ME</h2>
-					<p>Drop me a line if you would like discuss working together to create something special. Curriculum vitae available on request.</p>
+					<p>Drop me a line if you would like discuss working together to create something special.</p>
 				</div>
 			</div>
 			<div id="sixth" class='gallery-container'>
