@@ -320,9 +320,16 @@ p{
 }
 
 
-/*div#wrapper > * {
-	width:400px;
-}*/
+.gallery-wrapper img {
+	visibility:hidden;
+	width:0;
+	height:0;
+	padding:0;
+	margin:0;
+	border:0;
+	outline:0;
+	display: block;
+}
 
 .slide-header a.top {
 	font-family: 'ChunkFiveRegular';
@@ -502,59 +509,7 @@ p{
 	}
 }
 
-@media only screen and (device-width: 768px) and (orientation: landscape) {
-	#first {
-		background: url(../images/backgrounds/1024/01.jpg) no-repeat fixed 50% -40px transparent;
-	}
-
-	#second {
-		background: url(../images/backgrounds/1024/02.jpg) no-repeat fixed 50% -150px transparent;
-	}
-
-	#third {
-		background: url(../images/backgrounds/1024/03.jpg) no-repeat fixed 50% -150px transparent;
-	}
-
-	#forth {
-		background: url(../images/backgrounds/1024/04.jpg) no-repeat fixed 50% -150px transparent; 
-	}
-
-	#fifth {
-		background: url(../images/05.png) repeat fixed 50% 0 transparent; 
-	}
-
-	#sixth {
-		background: url(../images/backgrounds/1024/06.jpg) no-repeat fixed 50% -150px transparent; 
-	}
-
-	#first .welcome-message h1 {
-		font-size: 30px;
-	}
-
-	#first .welcome-message p {
-		font-size: 18px;
-		line-height:24px;
-	}
-
-	.slide-number {
-		font-size: 50px;
-	}
-
-	.slide-header {
-		padding: 35px 0;
-	}
-
-	.slide-header .slide-details h2 {
-		font-size: 30px;
-	}
-
-	.slide-header .slide-details p {
-		font-size: 18px;
-		line-height: 24px;
-	}
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (max-width: 480px ) and (max-device-width: 480px) {
 	#first {
 		background: url(../images/backgrounds/768/01.jpg) no-repeat fixed 50% -40px transparent;
 	}
@@ -610,4 +565,54 @@ p{
 	}
 }
 
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
+	#first {
+		background: url(../images/backgrounds/1024/01.jpg) no-repeat fixed 50% -40px transparent;
+	}
 
+	#second {
+		background: url(../images/backgrounds/1024/02.jpg) no-repeat fixed 50% -150px transparent;
+	}
+
+	#third {
+		background: url(../images/backgrounds/1024/03.jpg) no-repeat fixed 50% -150px transparent;
+	}
+
+	#forth {
+		background: url(../images/backgrounds/1024/04.jpg) no-repeat fixed 50% -150px transparent; 
+	}
+
+	#fifth {
+		background: url(../images/05.png) repeat fixed 50% 0 transparent; 
+	}
+
+	#sixth {
+		background: url(../images/backgrounds/1024/06.jpg) no-repeat fixed 50% -150px transparent; 
+	}
+
+	#first .welcome-message h1 {
+		font-size: 30px;
+	}
+
+	#first .welcome-message p {
+		font-size: 18px;
+		line-height:24px;
+	}
+
+	.slide-number {
+		font-size: 50px;
+	}
+
+	.slide-header {
+		padding: 35px 0;
+	}
+
+	.slide-header .slide-details h2 {
+		font-size: 30px;
+	}
+
+	.slide-header .slide-details p {
+		font-size: 18px;
+		line-height: 24px;
+	}
+}
