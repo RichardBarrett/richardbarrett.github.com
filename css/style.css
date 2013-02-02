@@ -513,31 +513,31 @@ p{
 	}
 
 	#first {
-		background: url(../images/backgrounds/768/01.jpg) repeat scroll 0 0 transparent;
+		background: url(../images/backgrounds/768/01.jpg) repeat scroll 50% 0 transparent;
 	}
 
 	#second {
-		background: url(../images/backgrounds/768/02.jpg) repeat scroll 0 0 transparent;
+		background: url(../images/backgrounds/768/02.jpg) repeat scroll 50% 0 transparent;
 	}
 
 	#third {
-		background: url(../images/backgrounds/768/03.jpg) repeat scroll 0 0 transparent;
+		background: url(../images/backgrounds/768/03.jpg) repeat scroll 50% 0 transparent;
 	}
 
 	#forth {
-		background: url(../images/backgrounds/768/04.jpg) repeat scroll 0 0 transparent; 
+		background: url(../images/backgrounds/768/04.jpg) repeat scroll 50% 0 transparent; 
 	}
 
 	#fifth {
-		background: url(../images/backgrounds/768/05.png) repeat scroll 0 0 transparent; 
+		background: url(../images/backgrounds/768/05.png) repeat scroll 50% 0 transparent; 
 	}
 
 	#sixth {
-		background: url(../images/backgrounds/768/06.jpg) repeat scroll 0 0 transparent; 
+		background: url(../images/backgrounds/768/06.jpg) repeat scroll 50% 0 transparent; 
 	}
 
 	.slide-header{
-		padding: 20px 0;;
+		padding: 20px 0;
 	}
 
 	.slide-details h1 {
@@ -547,7 +547,7 @@ p{
 
 	.slide-details p {
 		line-height: 15px;
-		font-family: "Vezus-Light"
+		font-family: "Vezus-Light" !important;
 	}
 
 	.slide-number {
@@ -587,7 +587,7 @@ p{
 	}
 
 	.gallery-wrapper ul.gallery-label {
-		margin: 0 auto 0 -20px;
+		margin: 0 auto;		
 	}	
 
 	.skills-container {
@@ -604,7 +604,6 @@ p{
 		padding: 50px 0 0;
 
 	}
-
 
 	.contact ul.contact-email li, .contact ul.contact-twitter li {
 		color:#121212;
