@@ -496,7 +496,7 @@ p{
 
 	.welcome-message p {
 		line-height: 20px;
-		font-family: 'Vezus-Light';
+		font-family: 'Vezus-Light' !important;
 	}
 
 	#first {
@@ -536,18 +536,17 @@ p{
 		background: url(../images/backgrounds/768/06.jpg) repeat scroll 50% 0 transparent; 
 	}
 
-	.slide-header{
+	.slide-header {
 		padding: 20px 0;
 	}
 
-	.slide-details h1 {
+	.slide-details h2 {
 		line-height:25px;
 		font-family: "ChunkFiveRegular"
 	}
 
 	.slide-details p {
 		line-height: 15px;
-		font-family: "Vezus-Light" !important;
 	}
 
 	.slide-number {
