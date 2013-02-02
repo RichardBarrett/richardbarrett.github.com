@@ -458,7 +458,11 @@ p{
 
 @media only screen and (max-device-width: 720px) {
 
-	body { font-size:40%;}
+	body { font-size:45%;}
+
+	.main-menu li.hide-menu {
+		visibility: hidden;
+	}
 
 	.welcome-message{
 		padding: 20px 0;
@@ -469,7 +473,7 @@ p{
 	}
 
 	#first {
-		height: 250px;
+		height: 275px;
 		margin: 0 auto;
 		padding: 0;
 	}
@@ -524,7 +528,7 @@ p{
 	    background-image: url("../images/top-2.png");
 	    margin-right: 10px;
 	    width: 50px;
-	    line-height: 20px;
+	    line-height: 25px;
 	    margin-right: 10px;
 	}
 
@@ -552,7 +556,7 @@ p{
 	}
 
 	.gallery-wrapper ul.gallery-label {
-		margin: 0 auto 0 -40px;
+		margin: 0 auto 0 -20px;
 	}	
 
 }
