@@ -576,10 +576,11 @@ p {
 		left: 82px;		
 	}	
 
+	
 	.skills-container {
-		background: url("../images/skills-2.png") no-repeat static 50% 0 transparent;
-		width:240px;
-		height:192px;
+		background: url("../images/skills-2.png") no-repeat scroll 0 0 transparent;
+		width:480px;
+		height:294px;
 		margin:0 auto;
 		padding:0;	
 		overflow: hidden;	
