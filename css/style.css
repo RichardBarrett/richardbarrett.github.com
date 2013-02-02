@@ -593,7 +593,44 @@ p{
 		height:392px;
 		margin:0 auto;
 		padding:0;
-		background:url("../images/skills-2.png") no-repeat scroll 0 0 transparent;
+		background:url("../images/skills-2.png") no-repeat static 0 0 transparent;
+	}
+
+	.contact {
+		font-family: 'Vezus-Light';
+		font-size: 50%;
+		padding: 50px 0 0;
+
+	}
+
+
+	.contact ul.contact-email li, .contact ul.contact-twitter li {
+		color:#121212;
+		line-height: 37px;
+		-webkit-border-radius: 20px; 
+		-moz-border-radius: 20px; 
+		border-radius: 20px; 	
+		margin: 12px auto;
+		background-position: 4px 4px;
+		padding: 0 15px 0 42px;
+		border: 1px solid #121212;
+		box-shadow: 0 0 2px #121212;
+	}
+
+	.contact ul.contact-email li {
+		background-image: url("../images/contact-email-2.png");
+	}
+
+	.contact ul.contact-twitter li {
+		background-image: url("../images/contact-twitter-2.png");
+	}
+
+	.contact ul.contact-email a li:hover {
+		background-image: url("../images/contact-email-hover-2.png");
+	}
+
+	.contact ul.contact-twitter a li:hover {
+		background-image: url("../images/contact-twitter-hover-2.png");
 	}	
 
 }
