@@ -460,6 +460,15 @@ p{
 
 	body { font-size:45%;}
 
+	.main-menu{
+		width:190px;
+		margin:0 auto;
+	}
+
+	.main-menu ul {
+		width:190px;
+		margin:0 auto;
+	}
 	.main-menu li.hide-menu, .main-menu li.hide-menu {
 		visibility: hidden;
 	}
