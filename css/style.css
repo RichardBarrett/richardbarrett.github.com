@@ -299,7 +299,6 @@ p {
 	border-radius: 20px; 
 	background-color: #fac948;	
 	background-repeat: no-repeat;
-	list-style-type: none;
 	position: absolute;
 	top: 20px;
 	width:160px;
@@ -307,13 +306,12 @@ p {
 	background-image: url("../images/gallery-icon.png");
 	background-repeat: no-repeat;
 	background-position: 4px 4px;
-	padding: 0;
 	border: 2px solid #121212;
 	box-shadow: 0 0 5px #121212;
 	display: inline-block;
 	padding: 0 0 0 10px;
 	line-height: 38px;	
-	font-family: 'Chunkfive';
+	font-family: 'ChunkFiveRegular';
 	font-size:120%;
 	color:#121212;	
 }
@@ -573,7 +571,8 @@ p {
 
 	.gallery-wrapper div.gallery-label {
 		margin: 0 0 0 5px;
-		left: 82px;		
+		left: 82px;	
+		font-size: 120%	
 	}	
 
 	
@@ -595,7 +594,7 @@ p {
 
 	.contact ul.contact-email li, .contact ul.contact-twitter li {
 		color:#121212;
-		line-height: 37px;
+		line-height: 30px;
 		-webkit-border-radius: 20px; 
 		-moz-border-radius: 20px; 
 		border-radius: 20px; 	
