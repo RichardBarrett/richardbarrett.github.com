@@ -459,7 +459,7 @@ p{
 
 @media only screen and (max-device-width: 720px) {
 
-	body { font-size:50%;}
+	body { font-size:40%;}
 
 	.welcome-message{
 		padding: 20px 0;
@@ -513,7 +513,9 @@ p{
 
 	.slide-details h1{}
 
-	.slide-details p{}
+	.slide-details p{
+		line-height: 20px;
+	}
 
 	.slide-number {
 		margin: 0 10px
@@ -524,6 +526,7 @@ p{
 	    margin-right: 10px;
 	    width: 80px;
 	    line-height: 20px;
+	    margin-right: 50px;
 	}
 
 	.slide-header a.top:hover {
