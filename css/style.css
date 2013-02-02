@@ -484,13 +484,11 @@ p {
 
 	.welcome-message h1 {
 		line-height: 15px;
-		font-family: 'ChunkFiveRegular';
 	}
 
 
 	.welcome-message p {
 		line-height: 20px;
-		font-family: 'Vezus-Light' !important;
 	}
 
 	#first {
