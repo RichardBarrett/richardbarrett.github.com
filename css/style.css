@@ -363,11 +363,6 @@ p {
 	padding:0;
 }
 
-.skills-container img {
-	vertical-align: middle;
-	margin-top:	30px;
-}
-
 .gallery-link {
 	width: 650px;
 	height: 650px;
@@ -581,12 +576,13 @@ p {
 		margin: 0 0 0 5px;		
 	}	
 
-	.gallery-container .skills-container {
-		background:url("../images/skills-2.png") no-repeat static 50% 0 transparent;
-		width:640px;
-		height:392px;
+	.skills-container {
+		background: url("../images/skills-2.png") no-repeat static 50% 0 transparent;
+		width:240px;
+		height:192px;
 		margin:0 auto;
-		padding:0;		
+		padding:0;	
+		overflow: hidden;	
 	}
 
 	.contact {
