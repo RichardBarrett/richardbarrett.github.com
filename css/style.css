@@ -138,7 +138,7 @@ p{
 }
 
 #second, #third, #forth, #fifth, #sixth{
-	height: 650px;
+	height: 325px;
 	margin: 0 auto;
 	padding: 50px 0;
 	overflow: hidden;
@@ -460,7 +460,7 @@ p{
 
 	body { font-size:45%;}
 
-	.main-menu li.hide-menu {
+	.main-menu li.hide-menu, .main-menu li.hide-menu {
 		visibility: hidden;
 	}
 
