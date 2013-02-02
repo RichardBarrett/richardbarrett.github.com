@@ -1,10 +1,10 @@
 @charset "utf-8";
-/* CSS Document */
 
 body {
 	margin: 0;
 	width: 100%;
 	padding: 0;
+	font-size: 100%;
 }
 
 img {
@@ -13,7 +13,7 @@ img {
 
 h1 {
 	font-family: 'ChunkFiveRegular';
-	font-size: 42px;
+	font-size: 280%;
 	color:#121212;
 	font-weight:normal;
 	margin:0 0 5px 0;
@@ -21,7 +21,7 @@ h1 {
 
 p{
 	font-family: 'Vezus-Light';
-	font-size: 24px;
+	font-size: 150%;
 	font-weight:normal;
 	line-height:34px;
 	margin:0;
@@ -65,7 +65,6 @@ p{
 .main-menu{
 	color: #8F8F8F;
 	font-family: 'CandaraRegular';
-	font-size: 12px;
 	height: 40px;
 	left: 0;
 	margin: 0 auto;
@@ -75,7 +74,7 @@ p{
 	width: 100%;
 	padding:20px 0;
 	margin:0;
-	white-space:; nowrap;
+	white-space: nowrap;
 	background-color:rgba(1,1,1,0);
 }
 
@@ -91,11 +90,13 @@ p{
 	margin: 0;
 	color:#8f8f8f;
 	text-decoration: none;	
+	font-size: 0.8rem;
 }
 
 .main-menu ul li a{
 	color:#8f8f8f;
-	text-decoration: none;		
+	text-decoration: none;	
+	font-size: 0.8rem;	
 }
 
 .main-menu .selected{
@@ -161,7 +162,7 @@ p{
 }
 
 #fifth {
-	background: url(../images/05.png) repeat fixed 50% 0 transparent; 
+	background: url(../images/backgrounds/1920/05.png) repeat fixed 50% 0 transparent; 
 }
 
 #sixth {
@@ -215,7 +216,7 @@ p{
 	display: inline-block;
 	float: left;
 	font-family: 'ChunkFiveRegular';
-	font-size: 72px;
+	font-size: 450%;
 	margin: 0 70px;
 	height:150px;
 }
@@ -227,7 +228,7 @@ p{
 
 .slide-details h2 {
 	font-family: 'ChunkFiveRegular';
-	font-size: 42px;
+	font-size: 240%;
 	margin: 0;
 	color: #121212;
 	display: block;
@@ -237,7 +238,7 @@ p{
 
 .slide-details p {
 	font-family: 'Vezus-Light';
-	font-size:24px;
+	font-size:150%;
 	line-height: 34px;
 	margin-top:10px;
 	display:block;
@@ -286,9 +287,6 @@ p{
 }
 
 .gallery-wrapper ul.gallery-label {
-	font-family: 'Chunkfive';
-	font-size:20px;
-	color:#121212;
 	-webkit-border-radius: 20px; 
 	-moz-border-radius: 20px; 
 	border-radius: 20px; 
@@ -317,6 +315,9 @@ p{
 	padding: 0;
 	margin-left: 20px;
 	line-height: 38px;
+	font-family: 'Chunkfive';
+	font-size:20px;
+	color:#121212;	
 }
 
 
@@ -333,7 +334,7 @@ p{
 
 .slide-header a.top {
 	font-family: 'ChunkFiveRegular';
-	font-size: 30px;
+	font-size: 200%;
 	font-weight: normal;	
 	float:right;
 	margin-right:100px;
@@ -456,163 +457,79 @@ p{
 	background-image: url("../images/contact-twitter-hover.png");
 }
 
+@media only screen and (max-device-width: 720px) {
 
-@media only screen and (max-width: 999px) {
+	body { font-size:50%;}
+
 	#first {
-		background: url(../images/backgrounds/1024/01.jpg) no-repeat fixed 50% -40px transparent;
+		height: 700px;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	#second, #third, #forth, #fifth, #sixth{
+		height: 650px;
+		margin: 0 auto;
+		padding: 50px 0;
+		overflow: hidden;
+	}
+
+	#first {
+		background: url(../images/backgrounds/768/01.jpg) no-repeat fixed 50% -40px transparent;
 	}
 
 	#second {
-		background: url(../images/backgrounds/1024/02.jpg) no-repeat fixed 50% -150px transparent;
+		background: url(../images/backgrounds/768/02.jpg) no-repeat fixed 50% -150px transparent;
 	}
 
 	#third {
-		background: url(../images/backgrounds/1024/03.jpg) no-repeat fixed 50% -150px transparent;
+		background: url(../images/backgrounds/768/03.jpg) no-repeat fixed 50% -150px transparent;
 	}
 
 	#forth {
-		background: url(../images/backgrounds/1024/04.jpg) no-repeat fixed 50% -150px transparent; 
+		background: url(../images/backgrounds/768/04.jpg) no-repeat fixed 50% -150px transparent; 
 	}
 
 	#fifth {
-		background: url(../images/05.png) repeat fixed 50% 0 transparent; 
+		background: url(../images/backgrounds/768/05.png) repeat fixed 50% 0 transparent; 
 	}
 
 	#sixth {
-		background: url(../images/backgrounds/1024/06.jpg) no-repeat fixed 50% -150px transparent; 
+		background: url(../images/backgrounds/768/06.jpg) no-repeat fixed 50% -150px transparent; 
 	}
 
-	#first .welcome-message h1 {
-		font-size: 30px;
+
+	.slide-header a.top {
+	    background-image: url("../images/top-2.png");
 	}
 
-	#first .welcome-message p {
-		font-size: 18px;
-		line-height:24px;
+	.gallery-wrapper {
+		width:350px;
+		height:350px;
 	}
 
-	.slide-number {
-		font-size: 50px;
+	.gallery-wrapper ul.gallery-label {
+		margin: 0 auto 0 -40px;
 	}
 
-	.slide-header {
-		padding: 35px 0;
+	.slide-header a.top:hover {
+		background-image:url(../images/top-hover.png);
 	}
 
-	.slide-header .slide-details h2 {
-		font-size: 30px;
+
+	.gallery-wrapper {
+		width:350px;
+		height:350px;
 	}
 
-	.slide-header .slide-details p {
-		font-size: 18px;
-		line-height: 24px;
+	.web-design-container {
+	    background-image: url("../images/web-design-gallery-2.jpg");
 	}
+
+	.gallery-link {
+	    height: 350px;
+	    width: 350px;
+	}
+
 }
 
-@media only screen and (max-device-width: 480px) {
-	#first {
-		background: url(../images/backgrounds/480/01.jpg) no-repeat fixed 50% -40px transparent;
-	}
-
-	#second {
-		background: url(../images/backgrounds/480/02.jpg) no-repeat fixed 50% -150px transparent;
-	}
-
-	#third {
-		background: url(../images/backgrounds/480/03.jpg) no-repeat fixed 50% -150px transparent;
-	}
-
-	#forth {
-		background: url(../images/backgrounds/480/04.jpg) no-repeat fixed 50% -150px transparent; 
-	}
-
-	#fifth {
-		background: url(../images/05.png) repeat fixed 50% 0 transparent; 
-	}
-
-	#sixth {
-		background: url(../images/backgrounds/480/06.jpg) no-repeat fixed 50% -150px transparent; 
-	}
-
-	#first .welcome-message h1 {
-		font-size: 24px;
-	}
-
-	#first .welcome-message p {
-		font-size: 14px;
-		line-height:20px;
-	}
-
-	#first .welcome-message h2, #first .welcome-message p {
-		max-width:575px;
-	}
-
-	.slide-number {
-		font-size: 40px;
-	}
-
-	.slide-header {
-		padding: 15px 0;
-	}
-
-	.slide-header .slide-details h2 {
-		font-size: 24px;
-	}
-
-	.slide-header .slide-details p {
-		font-size: 14px;
-		line-height: 20px;
-	}
-}
-
-@media only screen and (max-width: 1024px) and (orientation: portrait) {
-	#first {
-		background: url(../images/backgrounds/1024/01.jpg) no-repeat fixed 50% -40px transparent;
-	}
-
-	#second {
-		background: url(../images/backgrounds/1024/02.jpg) no-repeat fixed 50% -150px transparent;
-	}
-
-	#third {
-		background: url(../images/backgrounds/1024/03.jpg) no-repeat fixed 50% -150px transparent;
-	}
-
-	#forth {
-		background: url(../images/backgrounds/1024/04.jpg) no-repeat fixed 50% -150px transparent; 
-	}
-
-	#fifth {
-		background: url(../images/05.png) repeat fixed 50% 0 transparent; 
-	}
-
-	#sixth {
-		background: url(../images/backgrounds/1024/06.jpg) no-repeat fixed 50% -150px transparent; 
-	}
-
-	#first .welcome-message h1 {
-		font-size: 30px;
-	}
-
-	#first .welcome-message p {
-		font-size: 18px;
-		line-height:24px;
-	}
-
-	.slide-number {
-		font-size: 50px;
-	}
-
-	.slide-header {
-		padding: 35px 0;
-	}
-
-	.slide-header .slide-details h2 {
-		font-size: 30px;
-	}
-
-	.slide-header .slide-details p {
-		font-size: 18px;
-		line-height: 24px;
-	}
-}
