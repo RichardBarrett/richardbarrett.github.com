@@ -461,6 +461,14 @@ p{
 
 	body { font-size:50%;}
 
+	.welcome-message{
+		padding: 20px 0;
+	}
+
+	.welcome-message p {
+		line-height: 20px;
+	}
+
 	#first {
 		height: 700px;
 		margin: 0 auto;
@@ -515,6 +523,7 @@ p{
 	    background-image: url("../images/top-2.png");
 	    margin-right: 10px;
 	    width: 80px;
+	    line-height: 20px;
 	}
 
 	.slide-header a.top:hover {
