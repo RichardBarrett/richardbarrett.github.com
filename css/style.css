@@ -530,7 +530,9 @@ p{
 		padding: 20px 0;;
 	}
 
-	.slide-details h1{}
+	.slide-details h1{
+		line-height:25px;
+	}
 
 	.slide-details p{
 		line-height: 20px;
@@ -543,9 +545,9 @@ p{
 	.slide-header a.top {
 	    background-image: url("../images/top-2.png");
 	    margin-right: 10px;
-	    width: 50px;
+	    width: 60px;
 	    line-height: 25px;
-	    margin-right: 10px;
+	    margin-right: 1px;
 	}
 
 	.slide-header a.top:hover {
