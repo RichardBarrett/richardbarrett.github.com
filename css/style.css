@@ -293,7 +293,7 @@ p {
 	border-radius: 20px; 
 }
 
-.gallery-wrapper ul.gallery-label {
+.gallery-wrapper div.gallery-label {
 	-webkit-border-radius: 20px; 
 	-moz-border-radius: 20px; 
 	border-radius: 20px; 
@@ -304,26 +304,20 @@ p {
 	top: 20px;
 	width:160px;
 	left: 50%;
-	margin: 0 auto 0 -80px;
+	margin: 0 0 0 -80px;
 	background-image: url("../images/gallery-icon.png");
 	background-repeat: no-repeat;
 	background-position: 4px 4px;
 	padding: 0;
 	border: 2px solid #121212;
 	box-shadow: 0 0 5px #121212;
-}
-
-.gallery-wrapper ul.gallery-label li {
-	background-color: #fac948;	
-	display: inline-block;	
-	padding: 0;
-	margin-left: 20px;
-	line-height: 38px;
+	display: inline-block;
+	padding: 0 0 0 10px;
+	line-height: 38px;	
 	font-family: 'Chunkfive';
-	font-size:20px;
+	font-size:120%;
 	color:#121212;	
 }
-
 
 .gallery-wrapper img {
 	visibility:hidden;
@@ -585,8 +579,8 @@ p {
 		height:325px;
 	}
 
-	.gallery-wrapper ul.gallery-label {
-		margin: 0 20px 0 0;		
+	.gallery-wrapper div.gallery-label {
+		margin: 0 0 0 5px;		
 	}	
 
 	.gallery-container .skills-container {
