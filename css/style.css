@@ -508,27 +508,27 @@ p{
 	}
 
 	#first {
-		background: url(../images/backgrounds/768/01.jpg) no-repeat fixed 50% 0px transparent;
+		background: url(../images/backgrounds/768/01.jpg) no-repeat scroll 50% 0 transparent;
 	}
 
 	#second {
-		background: url(../images/backgrounds/768/02.jpg) no-repeat fixed 50% -400px transparent;
+		background: url(../images/backgrounds/768/02.jpg) no-repeat scroll 50% 0 transparent;
 	}
 
 	#third {
-		background: url(../images/backgrounds/768/03.jpg) no-repeat fixed 50% -400px transparent;
+		background: url(../images/backgrounds/768/03.jpg) no-repeat scroll 50% 0 transparent;
 	}
 
 	#forth {
-		background: url(../images/backgrounds/768/04.jpg) no-repeat fixed 50% -400px transparent; 
+		background: url(../images/backgrounds/768/04.jpg) no-repeat scroll 50% 0 transparent; 
 	}
 
 	#fifth {
-		background: url(../images/backgrounds/768/05.png) repeat fixed 50% 0 transparent; 
+		background: url(../images/backgrounds/768/05.png) repeat scroll 50% 0 transparent; 
 	}
 
 	#sixth {
-		background: url(../images/backgrounds/768/06.jpg) no-repeat fixed 50% -400px transparent; 
+		background: url(../images/backgrounds/768/06.jpg) no-repeat scroll 50% 0 transparent; 
 	}
 
 
