@@ -363,6 +363,7 @@ p{
 }
 
 .skills-container {
+	background:url("../images/skills.png") no-repeat scroll 0 0 transparent;
 	width:960px;
 	height:588px;
 	margin:0 auto;
@@ -584,6 +585,14 @@ p{
 
 	.gallery-wrapper ul.gallery-label {
 		margin: 0 auto 0 -20px;
+	}	
+
+	.skills-container {
+		width:640px;
+		height:392px;
+		margin:0 auto;
+		padding:0;
+		background:url("../images/skills-2.png") no-repeat scroll 0 0 transparent;
 	}	
 
 }
