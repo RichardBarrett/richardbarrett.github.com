@@ -400,12 +400,9 @@ p {
 	text-align:	center;	
 }
 
-.contact ul.contact-email, .contact ul.contact-twitter {
+.contact a.contact-email, .contact a.contact-twitter {
 	margin:0 auto;
 	list-style-type: none;
-}
-
-.contact ul.contact-email li, .contact ul.contact-twitter li {
 	font-size: 180%;
 	color:#121212;
 	line-height: 75px;
@@ -413,38 +410,34 @@ p {
 	-moz-border-radius: 40px; 
 	border-radius: 40px; 	
 	margin: 25px auto;
-	background-color: #fac948;	
-	background-repeat: no-repeat;
-	background-position: 8px 8px;
+	background-color: #fac948 !important;
+	background-position: 8px 8px !important;
+	background-repeat: no-repeat !important;	
 	padding: 0 30px 0 85px;
 	display: inline-block;
 	border: 2px solid #121212;
 	box-shadow: 0 0 5px #121212;
+	text-decoration: none;
 }
 
-.contact ul.contact-email li {
+.contact a.contact-email{
 	background-image: url("../images/contact-email.png");
 }
 
-.contact ul.contact-twitter li {
+.contact a.contact-twitter{
 	background-image: url("../images/contact-twitter.png");
 }
 
-.contact ul.contact-email a, .contact ul.contact-twitter {
-	text-decoration: none;
-	color:#121212;
+.contact a.contact-email:hover, .contact a.contact-twitter:hover {
+	color:#fac948 !important;
+	background-color:#121212 !important;	
 }
 
-.contact ul.contact-email a li:hover, .contact ul.contact-twitter a li:hover {
-	color:#fac948;
-	background-color:#121212;	
-}
-
-.contact ul.contact-email a li:hover {
+.contact a.contact-email:hover {
 	background-image: url("../images/contact-email-hover.png");
 }
 
-.contact ul.contact-twitter a li:hover {
+.contact a.contact-twitter:hover {
 	background-image: url("../images/contact-twitter-hover.png");
 }
 
@@ -592,34 +585,42 @@ p {
 
 	}
 
-	.contact ul.contact-email li, .contact ul.contact-twitter li {
+	.contact a.contact-email, .contact a.contact-twitter {
 		color:#121212;
 		line-height: 30px;
 		-webkit-border-radius: 20px; 
 		-moz-border-radius: 20px; 
 		border-radius: 20px; 	
 		margin: 12px auto;
-		background-position: 4px 4px;
+		background-color: #fac948 !important;
+		background-position: 4px 4px !important;
+		background-repeat: no-repeat !important;	
 		padding: 0 15px 0 42px;
 		border: 1px solid #121212;
 		box-shadow: 0 0 2px #121212;
 	}
 
-	.contact ul.contact-email li {
+	.contact a.contact-email{
 		background-image: url("../images/contact-email-2.png");
 	}
 
-	.contact ul.contact-twitter li {
+	.contact a.contact-twitter{
 		background-image: url("../images/contact-twitter-2.png");
 	}
 
-	.contact ul.contact-email a li:hover {
+	.contact a.contact-email:hover, .contact a.contact-twitter:hover {
+		color:#fac948 !important;
+		background-color:#121212 !important;	
+	}
+
+	.contact a.contact-email:hover {
 		background-image: url("../images/contact-email-hover-2.png");
 	}
 
-	.contact ul.contact-twitter a li:hover {
+	.contact a.contact-twitter:hover {
 		background-image: url("../images/contact-twitter-hover-2.png");
-	}	
+	}
+
 
 }
 
