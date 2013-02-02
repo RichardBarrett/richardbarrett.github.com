@@ -19,14 +19,6 @@ h1 {
 	margin:0 0 5px 0;
 }
 
-p {
-	font-family: 'Vezus-Light';
-	font-size: 150%;
-	font-weight:normal;
-	line-height:34px;
-	margin:0;
-}
-
 @font-face {
 	font-family: 'CandaraRegular';
 	src: url('../webfonts/candara-webfont.otf');
@@ -138,9 +130,10 @@ p {
 	padding: 0 20px;
 }
 
-p.subtext {
+.welcome-message p {
 	font-family: 'Vezus-Light' !important;
 	font-size: 150%;
+	line-height:30px;
 }
 
 #first {
@@ -448,7 +441,7 @@ p.subtext {
 
 @media only screen and (max-device-width: 720px) {
 
-	body { font-size:45%;}
+	body { font-size:50%;}
 
 	.main-menu{
 		width:190px;
@@ -573,7 +566,7 @@ p.subtext {
 
 	.gallery-wrapper div.gallery-label {
 		margin: 0 0 0 5px;
-		left: 82px;	
+		left: 60px;	
 		font-size: 250%	
 	}	
 
