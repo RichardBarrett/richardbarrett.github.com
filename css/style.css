@@ -19,7 +19,7 @@ h1 {
 	margin:0 0 5px 0;
 }
 
-p{
+p {
 	font-family: 'Vezus-Light';
 	font-size: 150%;
 	font-weight:normal;
@@ -589,12 +589,12 @@ p{
 		margin: 0 20px 0 0;		
 	}	
 
-	.skills-container {
+	.gallery-container .skills-container {
+		background:url("../images/skills-2.png") no-repeat static 50% 0 transparent;
 		width:640px;
 		height:392px;
 		margin:0 auto;
-		padding:0;
-		background:url("../images/skills-2.png") no-repeat static 0 0 transparent;
+		padding:0;		
 	}
 
 	.contact {
