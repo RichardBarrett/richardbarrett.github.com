@@ -506,15 +506,15 @@ p{
 	}
 
 	#second {
-		background: url(../images/backgrounds/768/02.jpg) no-repeat fixed 50% 0px transparent;
+		background: url(../images/backgrounds/768/02.jpg) no-repeat fixed 50% -200px transparent;
 	}
 
 	#third {
-		background: url(../images/backgrounds/768/03.jpg) no-repeat fixed 50% 0px transparent;
+		background: url(../images/backgrounds/768/03.jpg) no-repeat fixed 50% -200px transparent;
 	}
 
 	#forth {
-		background: url(../images/backgrounds/768/04.jpg) no-repeat fixed 50% 0px transparent; 
+		background: url(../images/backgrounds/768/04.jpg) no-repeat fixed 50% -200px transparent; 
 	}
 
 	#fifth {
@@ -522,7 +522,7 @@ p{
 	}
 
 	#sixth {
-		background: url(../images/backgrounds/768/06.jpg) no-repeat fixed 50% 0px transparent; 
+		background: url(../images/backgrounds/768/06.jpg) no-repeat fixed 50% -200px transparent; 
 	}
 
 
