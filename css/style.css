@@ -138,7 +138,7 @@ p{
 }
 
 #second, #third, #forth, #fifth, #sixth{
-	height: 325px;
+	height: 650px;
 	margin: 0 auto;
 	padding: 50px 0;
 	overflow: hidden;
@@ -303,9 +303,6 @@ p{
 	padding: 0;
 	border: 2px solid #121212;
 	box-shadow: 0 0 5px #121212;
-}
-.gallery-wrapper ul.gallery-label:hover{
-	cursor: auto;
 }
 
 .gallery-wrapper ul.gallery-label li {
@@ -535,7 +532,7 @@ p{
 	}
 
 	.slide-details p{
-		line-height: 20px;
+		line-height: 15px;
 	}
 
 	.slide-number {
@@ -575,6 +572,7 @@ p{
 
 	.gallery-wrapper ul.gallery-label {
 		margin: 0 auto 0 -20px;
+		width:100px;
 	}	
 
 }
