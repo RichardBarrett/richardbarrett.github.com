@@ -465,11 +465,18 @@ p{
 	}
 
 	.welcome-message{
-		padding: 20px 0;
+		padding: 20px 0;		
 	}
+
+	.welcome-message h1 {
+		line-height: 20px;
+		font-family: 'Chunkfive';
+	}
+
 
 	.welcome-message p {
 		line-height: 20px;
+		font-family: 'Vezus-Light';
 	}
 
 	#first {
