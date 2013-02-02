@@ -479,6 +479,10 @@ p{
 		width:0;
 	}
 
+	.main-menu .logo {
+		margin: 0 auto;
+	}
+	
 	.welcome-message{
 		padding: 20px 0;		
 	}
