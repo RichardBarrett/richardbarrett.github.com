@@ -303,8 +303,7 @@ p {
 	position: absolute;
 	top: 20px;
 	width:160px;
-	left: 50%;
-	margin: 0 0 0 -80px;
+	left: 255px;
 	background-image: url("../images/gallery-icon.png");
 	background-repeat: no-repeat;
 	background-position: 4px 4px;
@@ -573,7 +572,8 @@ p {
 	}
 
 	.gallery-wrapper div.gallery-label {
-		margin: 0 0 0 5px;		
+		margin: 0 0 0 5px;
+		left: 82px;		
 	}	
 
 	.skills-container {
@@ -587,7 +587,7 @@ p {
 
 	.contact {
 		font-family: 'Vezus-Light';
-		font-size: 75%;
+		font-size: 120%;
 		padding: 50px 0 0;
 
 	}
