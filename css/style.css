@@ -469,8 +469,8 @@ p{
 	}
 
 	.welcome-message h1 {
-		line-height: 20px;
-		font-family: 'Chunkfive';
+		line-height: 25px;
+		font-family: 'ChunkFiveRegular';
 	}
 
 
@@ -486,7 +486,7 @@ p{
 	}
 
 	#second, #third, #forth, #fifth, #sixth{
-		height: 650px;
+		height: 325px;
 		margin: 0 auto;
 		padding: 50px 0;
 		overflow: hidden;
