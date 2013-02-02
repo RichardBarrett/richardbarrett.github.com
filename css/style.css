@@ -132,11 +132,15 @@ p {
 	width: 100%;
 }
 
-.welcome-message h2, .welcome-message p {
-	font-family: 'Vezus-Light' !important;
+.welcome-message h2, .welcome-message p {	
 	margin:0 auto;
 	max-width: 720px;
 	padding: 0 20px;
+}
+
+.welcome-message p {
+	font-family: 'Vezus-Light' !important;
+	font-size: 150%;
 }
 
 #first {
