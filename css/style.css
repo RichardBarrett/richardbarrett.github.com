@@ -112,13 +112,11 @@ p{
 }
 
 .main-menu .logo{
+	background: url(../images/PixelPotion.png) no-repeat scroll 0 0 transparent;
 	width: 190px;
 	height:40px;
 	display:inline-block;
 	margin: 0 30px;
-}
-
-.main-menu .logo img {
 	vertical-align: middle;
 }
 
