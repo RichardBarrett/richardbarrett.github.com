@@ -118,7 +118,6 @@ p{
 	border-bottom: 1px solid #DDDDDD;
 	display: block;
 	color: #121212;
-	height: 115px;
 	left: 0;
 	margin: 0;
 	padding: 70px 0;
@@ -470,7 +469,7 @@ p{
 	}
 
 	#first {
-		height: 700px;
+		height: 250px;
 		margin: 0 auto;
 		padding: 0;
 	}
