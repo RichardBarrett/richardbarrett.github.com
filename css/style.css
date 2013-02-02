@@ -133,6 +133,7 @@ p{
 }
 
 .welcome-message h2, .welcome-message p {
+	font-family: 'Vezus-Light' !important;
 	margin:0 auto;
 	max-width: 720px;
 	padding: 0 20px;
@@ -224,7 +225,7 @@ p{
 	font-family: 'ChunkFiveRegular';
 	font-size: 450%;
 	margin: 0 70px;
-	height:150px;
+	height:125px;
 }
 
 .slide-details  {
@@ -408,7 +409,6 @@ p{
 
 .contact {
 	font-family: 'Vezus-Light';
-	font-size: 32px;
 	width:100%;
 	padding: 100px 0 0;
 	text-align:	center;	
@@ -420,6 +420,7 @@ p{
 }
 
 .contact ul.contact-email li, .contact ul.contact-twitter li {
+	font-size: 180%;
 	color:#121212;
 	line-height: 75px;
 	-webkit-border-radius: 40px; 
@@ -550,7 +551,8 @@ p{
 	}
 
 	.slide-number {
-		margin: 0 10px
+		margin: 0 10px;
+		height:63px;
 	}
 
 	.slide-header a.top {
@@ -598,7 +600,7 @@ p{
 
 	.contact {
 		font-family: 'Vezus-Light';
-		font-size: 50%;
+		font-size: 75%;
 		padding: 50px 0 0;
 
 	}
