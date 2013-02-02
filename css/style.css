@@ -524,9 +524,9 @@ p{
 	.slide-header a.top {
 	    background-image: url("../images/top-2.png");
 	    margin-right: 10px;
-	    width: 80px;
+	    width: 50px;
 	    line-height: 20px;
-	    margin-right: 50px;
+	    margin-right: 10px;
 	}
 
 	.slide-header a.top:hover {
@@ -534,8 +534,8 @@ p{
 	}	
 
 	.gallery-wrapper {
-		width:350px;
-		height:350px;
+		width:325px;
+		height:325px;
 	}
 
 	.web-design-container {
@@ -543,13 +543,13 @@ p{
 	}
 
 	.gallery-link {
-	    height: 350px;
-	    width: 350px;
+	    height: 325px;
+	    width: 325px;
 	}
 
 	.gallery-wrapper {
-		width:350px;
-		height:350px;
+		width:325px;
+		height:325px;
 	}
 
 	.gallery-wrapper ul.gallery-label {
