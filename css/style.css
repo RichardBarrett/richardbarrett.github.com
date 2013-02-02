@@ -235,6 +235,7 @@ p.subtext {
 .slide-details  {
 	width: auto;
 	overflow: hidden;
+	font-size: 100%
 }
 
 .slide-details h2 {
@@ -521,6 +522,10 @@ p.subtext {
 		padding: 20px 0;
 	}
 
+	.slide-details {
+		font-size: 100%;
+	}
+
 	.slide-details h2 {
 		line-height:25px;
 		font-family: "ChunkFiveRegular"
@@ -548,8 +553,8 @@ p.subtext {
 	}	
 
 	.gallery-wrapper {
-		width:325px;
-		height:325px;
+		width:300px;
+		height:300px;
 	}
 
 	.web-design-container {
@@ -557,13 +562,13 @@ p.subtext {
 	}
 
 	.gallery-link {
-	    height: 325px;
-	    width: 325px;
+	    height: 300px;
+	    width: 300px;
 	}
 
 	.gallery-wrapper {
-		width:325px;
-		height:325px;
+		width:300px;
+		height:300px;
 	}
 
 	.gallery-wrapper div.gallery-label {
@@ -575,8 +580,8 @@ p.subtext {
 	
 	.skills-container {
 		background: url("../images/skills-2.png") no-repeat scroll 0 0 transparent;
-		width:480px;
-		height:294px;
+		width:440px;
+		height:270px;
 		margin:0 auto;
 		padding:0;	
 		overflow: hidden;	
