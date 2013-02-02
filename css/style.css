@@ -477,6 +477,7 @@ p{
 	}
 	.main-menu ul.hide-menu {
 		visibility: hidden;
+		width:0;
 	}
 
 	.welcome-message{
@@ -536,12 +537,14 @@ p{
 		padding: 20px 0;;
 	}
 
-	.slide-details h1{
+	.slide-details h1 {
 		line-height:25px;
+		font-family: "ChunkFiveRegular"
 	}
 
-	.slide-details p{
+	.slide-details p {
 		line-height: 15px;
+		font-family: "Vezus-Light"
 	}
 
 	.slide-number {
@@ -551,9 +554,9 @@ p{
 	.slide-header a.top {
 	    background-image: url("../images/top-2.png");
 	    margin-right: 10px;
-	    width: 60px;
+	    width: 55px;
 	    line-height: 25px;
-	    margin-right: 1px;
+	    margin-right: 10px;
 	}
 
 	.slide-header a.top:hover {
@@ -581,7 +584,6 @@ p{
 
 	.gallery-wrapper ul.gallery-label {
 		margin: 0 auto 0 -20px;
-		width:100px;
 	}	
 
 }
