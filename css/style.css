@@ -548,12 +548,11 @@ h1 {
 	.gallery-wrapper div.gallery-label {
 		margin: 0 0 0 5px;
 		left: 60px;	
-		font-size: 250%	
+		font-size: 270%	
 	}	
-
 	
-	.skills-container {
-		background: url("../images/skills-2.png") no-repeat scroll 0 0 transparent;
+	#fifth .skills-container {
+		background: url(../images/skills-2.png) no-repeat scroll 0 0 yellow;
 		width:453px;
 		height:1220px;
 		margin:0 auto;
