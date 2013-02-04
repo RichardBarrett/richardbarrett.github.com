@@ -484,7 +484,16 @@ h1 {
 		background: url(../images/backgrounds/768/01.jpg) repeat scroll 50% 0 transparent; 
 	}
 
-	#second, #third, #forth, #fifth, #sixth{
+	#fifth {
+		height: 808px;
+		margin: 0 auto;
+		padding: 50px 0;
+		overflow: hidden;
+		background: url(../images/backgrounds/768/05.png) repeat scroll 50% 0 transparent; 		
+
+	}
+
+	#second, #third, #forth, #sixth{
 		height: 325px;
 		margin: 0 auto;
 		padding: 50px 0;
@@ -553,8 +562,8 @@ h1 {
 	
 	#fifth .skills-container {
 		background: url(../images/skills-2.png) no-repeat scroll 0 0 transparent;
-		width:400px;
-		height:1077px;
+		width:300px;
+		height:808px;
 		margin:0 auto;
 		padding:0;	
 		overflow: hidden;	
