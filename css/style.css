@@ -444,7 +444,7 @@ h1 {
 
 @media only screen and (max-device-width: 720px) {
 
-	body { font-size:50%;}
+	body { font-size:45%;}
 
 	.main-menu{
 		width:190px;
@@ -506,7 +506,7 @@ h1 {
 	}
 
 	.slide-details p.slide-description {
-		line-height: 10px;
+		line-height: 14px;
 	}
 
 	.slide-number {
