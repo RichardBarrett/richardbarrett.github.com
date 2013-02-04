@@ -481,6 +481,7 @@ h1 {
 		height: 275px;
 		margin: 0 auto;
 		padding: 0;
+		background: url(../images/backgrounds/768/01.png) repeat scroll 50% 0 transparent; 
 	}
 
 	#second, #third, #forth, #fifth, #sixth{
@@ -499,12 +500,12 @@ h1 {
 		font-size: 100%;
 	}
 
-	.slide-details h2 {
+	.slide-details h2.slide-heading {
 		line-height:25px;
 		font-family: "ChunkFiveRegular"
 	}
 
-	.slide-details p {
+	.slide-details p.slide-description {
 		line-height: 10px;
 	}
 
