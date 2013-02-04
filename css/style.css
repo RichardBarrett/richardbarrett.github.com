@@ -140,7 +140,7 @@ h1 {
 	height: 700px;
 	margin: 0 auto;
 	padding: 0;
-	background-color:#121212
+	background-color:#121212;
 	;
 }
 
@@ -149,7 +149,7 @@ h1 {
 	margin: 0 auto;
 	padding: 50px 0;
 	overflow: hidden;
-	background-color:#121212
+	background-color:#121212;
 }
 
 #first {
@@ -474,7 +474,7 @@ h1 {
 
 
 	.welcome-message p {
-		line-height: 20px;
+		line-height: 10px;
 	}
 
 	#first {
@@ -505,7 +505,7 @@ h1 {
 	}
 
 	.slide-details p {
-		line-height: 15px;
+		line-height: 10px;
 	}
 
 	.slide-number {
