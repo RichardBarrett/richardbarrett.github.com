@@ -353,7 +353,6 @@ h1 {
 	background-image:url(../images/top-hover.png);
 }
 
-/*this skills container gives me so much grief and I don't understand why!*/
 .skills-container {
 	background: url("../images/skills.png") no-repeat scroll 0 50% transparent;
 	width:960px;
