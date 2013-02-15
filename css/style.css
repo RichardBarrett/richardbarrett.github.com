@@ -13,6 +13,8 @@ img {
 
 h1 {
 	font-family: 'ChunkFiveRegular';
+	text-shadow: 0 1px 0 #FFFFFF;
+	color: #121212;
 }
 
 p {
@@ -133,6 +135,7 @@ p {
 	margin:0 auto;
 	max-width: 720px;
 	padding: 0 20px;
+	text-shadow: 0 1px 0 #FFFFFF;
 }
 
 .welcome-message p {
