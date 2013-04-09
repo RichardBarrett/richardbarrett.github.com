@@ -183,7 +183,7 @@ p {
 }
 
 #sixth {
-	background: url(../images/backgrounds/1920/06.jpg) no-repeat fixed 50% 0 #0c0008; 
+	background: url(../images/backgrounds/1920/06.jpg) repeat-y fixed 50% 0 #0c0008; 
 }
 
 .second .slide-number {
